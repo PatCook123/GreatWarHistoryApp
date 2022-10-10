@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Great War History Timeline</title>
+        <link rel="stylesheet" href="static/css/style.css" type="text/css">
+    </head>
+    <body>
+            <h1>Welcome to the Great War History Timeline!</h1>
+    </body>
+
+    <!-- 1 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/timeline.css') }}?v1">
+    <!--FONT-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}?v1">
+    <script src="{{ url_for('static', filename='js/timeline.js') }}"></script>
+
+    <div id='timeline' style="width: 100%; height: 600px"></div>
+
+    <!-- 3 -->
+    <script>
+        // The TL.Timeline constructor takes at least two arguments:
+        // the id of the Timeline container (no '#'), and
+        // the URL to your JSON data file or Google spreadsheet.
+        // the id must refer to an element "above" this code,
+        // and the element must have CSS styling to give it width and height
+        // optionally, a third argument with configuration options can be passed.
+        // See below for more about options.
+
+        var additionalOptions = {
+                font: '/css/my-custom-timeline-fonts.css',
+                scale_factor: 1,
+                timenav_position: "top",
+            }
+
+        var timeline = new TL.Timeline('timeline', '{{ url_for('static', filename='embed/popular_timelines.json') }}', additionalOptions);
+
+        TL.onresize = function(event) {
+      	timeline.updateDisplay();
+      }
+    </script>
+
+
+</html>
