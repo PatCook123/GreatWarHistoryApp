@@ -8,7 +8,42 @@
     "events": [
         {
             "start_date": {
-                "year":			"2015",
+                "year":			"1914",
+				"month":		"06",
+                "day":          "28"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+            },
+            "text": {
+                "headline": "Assassination of Archduke Franz Ferdinand",
+                "text": "At the Congress of Berlin that brought an end to the Russo-Turkish War in 1878, Austria-Hungary was given the right to occupy Ottoman Bosnia and Herzegovina. Thirty years later, Austria-Hungary formally annexed the territory, violating the Berlin treaty[1] and upsetting the fragile balance of power in the Balkans, precipitating a diplomatic crisis. Sarajevo became the provincial capital and Oskar Potiorek, a military commander, became governor of the province. In the summer of 1914, Emperor Franz Joseph ordered Archduke Franz Ferdinand, heir presumptive to the Austro-Hungarian throne, to attend military exercises due to be held in Bosnia. After the exercises, on 28 June, Ferdinand toured Sarajevo with his wife, Sophie. Six armed irredentists, five Bosnian Serbs and one Bosnian Muslim, coordinated by Danilo Ilić, seeking to free Bosnia of Austria-Hungarian colonial rule and unite all Southern Slavs, lay in wait along Ferdinand's announced motorcade route.[2]\n\nAt 10:10 a.m., Nedeljko Čabrinović threw a hand grenade at Ferdinand's motorcade damaging the following car and injuring its occupants.[3] Later that morning, Gavrilo Princip managed to shoot and kill Franz Ferdinand and Sophie as they drove back to visit the wounded in the hospital. Čabrinović and Princip took cyanide, but it only sickened them. Both were arrested.[4] Within 45 minutes of the shooting, Princip began telling his story to interrogators.[5] The next day, based on the interrogations of the two assassins, Potiorek telegraphed Vienna to announce that Princip and Čabrinović had conspired in Belgrade with others to obtain bombs, revolvers, and money to kill the Archduke. A police dragnet quickly caught most of the conspirators."
+            },
+            "group":  "Politics"
+        },
+        {
+            "start_date": {
+                "year":			"1914",
+				"month":		"06",
+                "day":          "29"
+            },
+            "end_date": {
+                "year":			"1914",
+				"month":		"07",
+                "day":          "01"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/July_Crisis#Austria-Hungary_edges_towards_war_with_Serbia_(29_June_%E2%80%93_1_July)"
+            },
+            "text": {
+                "headline": "Austria-Hungary edges towards war with Serbia",
+                "text": "With the assassination of an ironically pacifist Archduke, the Austro-Hungarian empire began to push for war with its southern neighbor."
+            },
+            "group": "Politics"
+        },
+        {
+            "start_date": {
+                "year":			"2017",
 				"month":		"01"
             },
             "media": {
@@ -17,29 +52,8 @@
             "text": {
                 "headline": "Example with own image",
                 "text": "Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s"
-            }
-        },
-        {
-            "start_date": {
-                "year":			"2015",
-				"month":		"02"
             },
-            "end_date": {
-                "year":			"2015",
-				"month":		"03"
-            },
-            "media": {
-                "url": "https://en.wikipedia.org/wiki/Grand_Canal_(China)"
-            },
-            "background": {
-				"opacity":"50",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sui_Wendi_Tang.jpg"
-            },
-            "text": {
-                "headline": "Grand Canal in China is fully completed",
-                "text": "Its main role throughout its history was the transport of grain to the capital."
-            }
+            "group":  "Middle-Eastern Front"
         }
- 
     ]
 }

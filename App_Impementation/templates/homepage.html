@@ -1,44 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
     <head>
         <meta charset="UTF-8">
         <title>Great War History Timeline</title>
-        <link rel="stylesheet" href="static/css/style.css" type="text/css">
+        <!-- link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" type="text/css"-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
+
+
+    <header>
+
+        <div class="btn-group btg-group-lg" role="group">
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Background</button>
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#useModal">Help</button>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Great War History Intro</h4>
+              </div>
+              <div class="modal-body">
+                <p class="text-md-start">World War I or the First World War, often abbreviated as WWI or WW1, was a major global conflict that began on 28 July 1914 and ended on 11 November 1918. Referred to by contemporaries as the "Great War", its belligerents included much of Europe, the Russian Empire, the United States, and the Ottoman Empire, with fighting taking place across Europe, the Middle East, Africa and parts of Asia. New technology, including the recent invention of the airplane, trench warfare, and especially chemical weapons made it one of the deadliest conflicts in history. An estimated 9 million soldiers died in combat, with another 5 million civilian deaths as a result of military actions, hunger and disease.[2] Millions more died in genocides within the Ottoman Empire and the 1918 influenza pandemic, which was exacerbated by the movement of combatants during the war.[3][4]
+                    <br>
+                    By 1914, the European great powers were divided between the Triple Entente, comprising France, Russia, and Britain, and the Triple Alliance, containing Germany, Austria-Hungary, and Italy. Tensions in the Balkans came to a head on 28 June 1914 following the assassination of Archduke Franz Ferdinand, the Austro-Hungarian heir, by Gavrilo Princip, a Bosnian Serb. Austria-Hungary blamed Serbia, which led to the July Crisis, an unsuccessful attempt to avoid conflict through diplomacy. Russia came to Serbia's defence following Austria-Hungary's declaration of war on the latter on 28 July, and by 4 August, the system of alliances drew in Germany, France, and Britain, along with their respective colonies, although Italy remained neutral. In November 1914 the Ottoman Empire, Germany, and Austria-Hungary formed the Central Powers, while in April 1915, Italy joined Britain, France, Russia and Serbia as the Allies of World War I.
+                    <br>
+                    Facing a war on two fronts, German strategy in 1914 was to concentrate its forces on defeating France in six weeks before moving them to the Eastern Front and doing the same to Russia.[5] However, the German offensive in France failed to achieve this and by the end of 1914, the two sides faced each other along the Western Front, a continuous series of trench lines stretching from the English Channel to Switzerland that changed little until 1917. By contrast, the Eastern Front was far more fluid, with Austria-Hungary and Russia gaining, then losing large swathes of territory. Other significant theatres included the Middle Eastern Theatre, the Italian Front, and the Balkans Theatre, drawing Bulgaria, Romania, and Greece into the war.
+                    <br>
+                    By the end of 1915, both Russia and Austria-Hungary had suffered enormous casualties in the East, while Allied offensives against the Ottomans and on the Western Front ended in failure. A major German attack on Verdun in 1916 and a British offensive on the Somme also achieved little other than large numbers of casualties on both sides, while a Russian offensive in the East ground to a halt after some initial success. By early 1917, Russia was on the verge of revolution while the failure of the 1917 Nivelle Offensive and equally costly British attacks in Flanders meant by now all sides were increasingly short of manpower and subject to economic stress.
+                    <br>
+                    Shortages caused by the Allied naval blockade had led Germany to initiate unrestricted submarine warfare in early 1917, bringing the previously-neutral United States into the war on 6 April 1917. In Russia, the Bolsheviks seized power in the 1917 October Revolution and exited the war with the March 1918 Treaty of Brest-Litovsk, freeing up a large number of German troops. By transferring these to the Western Front, the German General Staff hoped to win a decisive victory before the arrival of significant American reinforcements and took the offensive in March 1918. Despite initial success, it was soon halted by heavy casualties and ferocious defence; in August, the Allies launched the Hundred Days Offensive and although the Imperial German Army continued to fight hard, it could only slow the advance, not stop it.[6]
+                    <br>
+                    Towards the end of 1918, the Central Powers began to collapse; Bulgaria signed an armistice on 29 September, followed by the Ottomans on 31 October, then Austria-Hungary on 3 November. Isolated, facing the German Revolution at home and a military on the verge of mutiny, Kaiser Wilhelm abdicated on 9 November, and the new German government signed the Armistice of 11 November 1918, bringing the conflict to a close. The Paris Peace Conference of 1919–1920 imposed various settlements on the defeated powers, with the best-known of these being the Treaty of Versailles. The dissolution of the Russian, German, Ottoman, and Austro-Hungarian empires led to numerous uprisings and the creation of independent states, including Poland, Czechoslovakia, and Yugoslavia. For reasons that are still debated, failure to manage the instability that resulted from this upheaval during the interwar period ended with the outbreak of World War II in September 1939.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="useModal" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Great War History Intro</h4>
+              </div>
+              <div class="modal-body">
+                <p>Use the timeline arrows to move back and forth.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </header>
+
+
+        <!-- top of page title-->
     <body>
-            <h1>Welcome to the Great War History Timeline!</h1>
+        <div class="container">
+            <div class="jumbotron">
+                <h2>Welcome to the Great War History Timeline!</h2>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
     </body>
 
-    <!-- 1 -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/timeline.css') }}?v1">
-    <!--FONT-->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}?v1">
-    <script src="{{ url_for('static', filename='js/timeline.js') }}"></script>
+    <div>
+        <!-- add timeline stylesheet -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/timeline.css') }}?v1">
+        <!-- add timeline font-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}?v1">
+        <script src="{{ url_for('static', filename='js/timeline.js') }}"></script>
 
-    <div id='timeline' style="width: 100%; height: 600px"></div>
+        <div id='timeline' style="width: 100%; height: 600px"></div>
 
-    <!-- 3 -->
-    <script>
-        // The TL.Timeline constructor takes at least two arguments:
-        // the id of the Timeline container (no '#'), and
-        // the URL to your JSON data file or Google spreadsheet.
-        // the id must refer to an element "above" this code,
-        // and the element must have CSS styling to give it width and height
-        // optionally, a third argument with configuration options can be passed.
-        // See below for more about options.
+        <!-- 3 -->
+        <script class="offset-6">
+            // The TL.Timeline constructor takes at least two arguments:
+            // the id of the Timeline container (no '#'), and
+            // the URL to your JSON data file or Google spreadsheet.
+            // the id must refer to an element "above" this code,
+            // and the element must have CSS styling to give it width and height
+            // optionally, a third argument with configuration options can be passed.
+            // See below for more about options.
 
-        var additionalOptions = {
-                font: '/css/my-custom-timeline-fonts.css',
-                scale_factor: 1,
-                timenav_position: "top",
-            }
+            var additionalOptions = {
+                    font: "{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}",
+                    scale_factor: 5,
+                    timenav_position: "center",
+                }
 
-        var timeline = new TL.Timeline('timeline', '{{ url_for('static', filename='embed/popular_timelines.json') }}', additionalOptions);
+            var timeline = new TL.Timeline('timeline', '{{ url_for('static', filename='embed/popular_timelines.json') }}', additionalOptions);
 
-        TL.onresize = function(event) {
-      	timeline.updateDisplay();
-      }
-    </script>
-
+            TL.onresize = function(event) {
+            timeline.updateDisplay();
+          }
+        </script>
+    </div>
 
 </html>
