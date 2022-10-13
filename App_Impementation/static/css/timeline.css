@@ -141,9 +141,9 @@
 .tl-storyjs .tl-navigation,
 .tl-storyjs .start,
 .tl-storyjs .active {
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin: 50px;
+  padding: 50px;
+  border: #8a6d3b;
   font-weight: normal;
   font-style: normal;
   font-size: 100%;
@@ -262,6 +262,9 @@
 }
 .tl-timeline {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 50px;
+  width: 80%;
+  padding: 15px;
   /* VCard
 	================================================== */
 }

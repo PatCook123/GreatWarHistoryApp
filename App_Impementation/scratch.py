@@ -1,5 +1,16 @@
-import os
+< div
 
-print(os.listdir('/App_Impementation/homepage.templates'))
 
-print(os.path.join('templates', 'templates/homepage.html'))
+class ="container" >
+
+< div
+
+
+class ="jumbotron" >
+
+< h2 > A
+Timeline
+of
+the
+Great
+War < / h2 > < / div > < / div >

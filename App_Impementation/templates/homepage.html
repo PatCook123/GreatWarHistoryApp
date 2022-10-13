@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Great War History Timeline</title>
-        <!-- link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" type="text/css"-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" type="text/css">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
         <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,14 +14,14 @@
 
     <header>
 
-        <div class="btn-group btg-group-lg" role="group">
+        <div class="btn-group btg-group-xl" role="group">
             <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Background</button>
             <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#useModal">Help</button>
         </div>
 
         <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
-          <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
 
             <!-- Modal content-->
             <div class="modal-content">
@@ -51,7 +51,7 @@
 
         <!-- Modal -->
         <div id="useModal" class="modal fade" role="dialog">
-          <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
 
             <!-- Modal content-->
             <div class="modal-content">
@@ -69,54 +69,96 @@
           </div>
         </div>
 
+        <div class ="page-header">
+            <h2 class="text-center">
+                The Great War History Timeline
+                <small>By Patrick Cook</small>
+            </h2>
+        </div>
+
     </header>
 
 
-        <!-- top of page title-->
+    <!-- plug-in integration -->
     <body>
-        <div class="container">
-            <div class="jumbotron">
-                <h2>Welcome to the Great War History Timeline!</h2>
-            </div>
-        </div>
-
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <!-- Including all compiled plugins -->
         <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
     </body>
 
-    <div>
-        <!-- add timeline stylesheet -->
+    <div class="card">
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Never think that war, no matter how necessary, nor how justified, is not a crime.</p>
+          <footer class="blockquote-footer">Ernest Hemingway<cite>1946</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <!-- timeline element -->
+    <div.tl>
+        <!-- adding timeline stylesheet -->
         <link rel="stylesheet" href="{{ url_for('static', filename='css/timeline.css') }}?v1">
-        <!-- add timeline font-->
+        <!-- adding timeline font-->
         <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}?v1">
         <script src="{{ url_for('static', filename='js/timeline.js') }}"></script>
 
         <div id='timeline' style="width: 100%; height: 600px"></div>
 
-        <!-- 3 -->
+        <!-- timeline script class -->
         <script class="offset-6">
-            // The TL.Timeline constructor takes at least two arguments:
-            // the id of the Timeline container (no '#'), and
-            // the URL to your JSON data file or Google spreadsheet.
-            // the id must refer to an element "above" this code,
-            // and the element must have CSS styling to give it width and height
-            // optionally, a third argument with configuration options can be passed.
-            // See below for more about options.
 
+            <!-- timelineJS allows for customization via a series of options passed as an argument to the timeline -->
             var additionalOptions = {
                     font: "{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}",
                     scale_factor: 5,
-                    timenav_position: "center",
+                    timenav_position: "left",
                 }
 
+            <!-- initializing timeline -->
             var timeline = new TL.Timeline('timeline', '{{ url_for('static', filename='embed/popular_timelines.json') }}', additionalOptions);
 
             TL.onresize = function(event) {
             timeline.updateDisplay();
           }
         </script>
+    </div.tl>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- additional content boxes -->
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="p-4 card-title">Special title treatment</h5>
+            <p class="p-4 card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="p-4 card-title">Special title treatment</h5>
+            <p class="p-4 card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <h4 class="text-center">
+            Created by Patrick Cook - CS361
+        </h4>
+    </footer>
 
 </html>

@@ -23,7 +23,7 @@ body::after {
   background: url("../images/satirical map wwi.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-  opacity: 0.3;
+  opacity: 0.2;
   top: 0;
   left: 0;
   bottom: 0;
@@ -32,6 +32,10 @@ body::after {
   z-index: -1;
 }
 
+div.tl {
+  margin: 50px;
+  border: #8a6d3b;
+}
 
 article,
 aside,
@@ -3456,15 +3460,15 @@ fieldset[disabled] .btn-link:focus {
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.3333333;
+  font-size: 24px;
+  line-height: 3;
   border-radius: 6px;
 }
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   border-radius: 3px;
 }
 .btn-xs,
@@ -4978,11 +4982,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-bottom: 30px;
   color: inherit;
-  opacity: .75;
+  opacity: .6;
   background-color: rgb(220, 210, 172);
   text-align: center;
 }
@@ -5003,12 +5007,12 @@ a.badge:focus {
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   border-radius: 6px;
 }
 .jumbotron .container {
-  max-width: 100%;
+  max-width: 60%;
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
