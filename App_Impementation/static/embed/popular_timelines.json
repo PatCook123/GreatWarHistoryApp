@@ -1,8 +1,11 @@
 {
 	"title": {
             "text": {
-                "headline": "Example timeline",
-                "text":     "Events in the 7th century from https://en.wikipedia.org/wiki/Timeline_of_the_Middle_Ages"
+                "headline": "The First World War",
+                "text": "World War I or the First World War, often abbreviated as WWI or WW1, was a major global conflict that began on 28 July 1914 and ended on 11 November 1918. Referred to by contemporaries as the \"Great War\", its belligerents included much of Europe, the Russian Empire, the United States, and the Ottoman Empire, with fighting taking place across Europe, the Middle East, Africa and parts of Asia. New technology, including the recent invention of the airplane, trench warfare, and especially chemical weapons made it one of the deadliest conflicts in history. An estimated 9 million soldiers died in combat, with another 5 million civilian deaths as a result of military actions, hunger and disease. Millions more died in genocides within the Ottoman Empire and the 1918 influenza pandemic, which was exacerbated by the movement of combatants during the war."
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/WWImontage.jpg/578px-WWImontage.jpg"
             }
     },
     "events": [
@@ -13,7 +16,7 @@
                 "day":          "28"
             },
             "media": {
-                "url": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+                "url": "https://i.pinimg.com/originals/7b/49/92/7b4992f9d19ceee603507add6d4c2be2.jpg"
             },
             "text": {
                 "headline": "Assassination of Archduke Franz Ferdinand",
@@ -37,23 +40,44 @@
             },
             "text": {
                 "headline": "Austria-Hungary edges towards war with Serbia",
-                "text": "With the assassination of an ironically pacifist Archduke, the Austro-Hungarian empire began to push for war with its southern neighbor."
+                "text": "With the assassination of an ironically pacifist Archduke, the Austro-Hungarian empire began to push for war with its southern neighbor. Austria-Hungary issued an ultimatum issued to Serbia with purposefully unagreeable terms."
             },
             "group": "Politics"
         },
         {
             "start_date": {
-                "year":			"2017",
-				"month":		"01"
+                "year":			"1914",
+				"month":		"07",
+                "day":          "28"
             },
             "media": {
-                "url": "static/img/stick-man.png"
+                "url": "https://i.redd.it/s7me88r34wc71.jpg"
             },
             "text": {
-                "headline": "Example with own image",
-                "text": "Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s"
+                "headline": "Austria-Hungary declares war on Serbia",
+                "text": "Backed by assurances from its ally, Germany, Austria-Hungary officially began its war of retribution on Serbia, firing the first shots of the war early in the morning on the 29th of July. By the 12th of August, Germany and Austria-Hungary were at war with Serbia, Russia, France, England, and Belgium."
             },
-            "group":  "Middle-Eastern Front"
+            "group": "Eastern Theatre"
+        },
+        {
+            "start_date": {
+                "year":			"1914",
+				"month":		"08",
+                "day":          "07"
+            },
+            "end_date": {
+                "year": "1914",
+                "month": "09",
+                "day": "6"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_the_Frontiers"
+            },
+            "text": {
+                "headline": "Battle of the Frontiers",
+                "text": "The Germans obtain a victory against the British Expeditionary Force and France's Fifth Army. The Germans, French, British and Belgians had tasted the cost of full-scale mechanized warfare. In less than a month, combined casualties would exceed 664,000."
+            },
+            "group": "Western Front"
         }
     ]
 }

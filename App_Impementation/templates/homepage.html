@@ -9,6 +9,17 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
         <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Including all compiled plugins -->
+        <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+
+        <script type="text/javascript">
+            $(window).on('load', function() {
+                $('#myModal').modal('show');
+            });
+        </script>
     </head>
 
 
@@ -30,20 +41,40 @@
                 <h4 class="modal-title">Great War History Intro</h4>
               </div>
               <div class="modal-body">
-                <p class="text-md-start">World War I or the First World War, often abbreviated as WWI or WW1, was a major global conflict that began on 28 July 1914 and ended on 11 November 1918. Referred to by contemporaries as the "Great War", its belligerents included much of Europe, the Russian Empire, the United States, and the Ottoman Empire, with fighting taking place across Europe, the Middle East, Africa and parts of Asia. New technology, including the recent invention of the airplane, trench warfare, and especially chemical weapons made it one of the deadliest conflicts in history. An estimated 9 million soldiers died in combat, with another 5 million civilian deaths as a result of military actions, hunger and disease.[2] Millions more died in genocides within the Ottoman Empire and the 1918 influenza pandemic, which was exacerbated by the movement of combatants during the war.[3][4]
-                    <br>
-                    By 1914, the European great powers were divided between the Triple Entente, comprising France, Russia, and Britain, and the Triple Alliance, containing Germany, Austria-Hungary, and Italy. Tensions in the Balkans came to a head on 28 June 1914 following the assassination of Archduke Franz Ferdinand, the Austro-Hungarian heir, by Gavrilo Princip, a Bosnian Serb. Austria-Hungary blamed Serbia, which led to the July Crisis, an unsuccessful attempt to avoid conflict through diplomacy. Russia came to Serbia's defence following Austria-Hungary's declaration of war on the latter on 28 July, and by 4 August, the system of alliances drew in Germany, France, and Britain, along with their respective colonies, although Italy remained neutral. In November 1914 the Ottoman Empire, Germany, and Austria-Hungary formed the Central Powers, while in April 1915, Italy joined Britain, France, Russia and Serbia as the Allies of World War I.
-                    <br>
-                    Facing a war on two fronts, German strategy in 1914 was to concentrate its forces on defeating France in six weeks before moving them to the Eastern Front and doing the same to Russia.[5] However, the German offensive in France failed to achieve this and by the end of 1914, the two sides faced each other along the Western Front, a continuous series of trench lines stretching from the English Channel to Switzerland that changed little until 1917. By contrast, the Eastern Front was far more fluid, with Austria-Hungary and Russia gaining, then losing large swathes of territory. Other significant theatres included the Middle Eastern Theatre, the Italian Front, and the Balkans Theatre, drawing Bulgaria, Romania, and Greece into the war.
-                    <br>
-                    By the end of 1915, both Russia and Austria-Hungary had suffered enormous casualties in the East, while Allied offensives against the Ottomans and on the Western Front ended in failure. A major German attack on Verdun in 1916 and a British offensive on the Somme also achieved little other than large numbers of casualties on both sides, while a Russian offensive in the East ground to a halt after some initial success. By early 1917, Russia was on the verge of revolution while the failure of the 1917 Nivelle Offensive and equally costly British attacks in Flanders meant by now all sides were increasingly short of manpower and subject to economic stress.
-                    <br>
-                    Shortages caused by the Allied naval blockade had led Germany to initiate unrestricted submarine warfare in early 1917, bringing the previously-neutral United States into the war on 6 April 1917. In Russia, the Bolsheviks seized power in the 1917 October Revolution and exited the war with the March 1918 Treaty of Brest-Litovsk, freeing up a large number of German troops. By transferring these to the Western Front, the German General Staff hoped to win a decisive victory before the arrival of significant American reinforcements and took the offensive in March 1918. Despite initial success, it was soon halted by heavy casualties and ferocious defence; in August, the Allies launched the Hundred Days Offensive and although the Imperial German Army continued to fight hard, it could only slow the advance, not stop it.[6]
-                    <br>
-                    Towards the end of 1918, the Central Powers began to collapse; Bulgaria signed an armistice on 29 September, followed by the Ottomans on 31 October, then Austria-Hungary on 3 November. Isolated, facing the German Revolution at home and a military on the verge of mutiny, Kaiser Wilhelm abdicated on 9 November, and the new German government signed the Armistice of 11 November 1918, bringing the conflict to a close. The Paris Peace Conference of 1919–1920 imposed various settlements on the defeated powers, with the best-known of these being the Treaty of Versailles. The dissolution of the Russian, German, Ottoman, and Austro-Hungarian empires led to numerous uprisings and the creation of independent states, including Poland, Czechoslovakia, and Yugoslavia. For reasons that are still debated, failure to manage the instability that resulted from this upheaval during the interwar period ended with the outbreak of World War II in September 1939.</p>
+                <h2 class="text-center">
+                    Welcome!
+                </h2>
+                  <br>
+                  <h3 class="text-center">
+                      Background of the Great War
+                  </h3>
+                  <br>
+                  <p class="text-body">
+                      The Great War, or the First World War, was the first truly global conflict in human history. Its
+                      theatres involved 32 countries fielding more than 70 million military personnel, and took the lives of between 8.5 and
+                      15 million soldiers. Fighting bled across Europe and stretched from the southern plains of Africa, to the deserts of the
+                      Middle-East, all the way to the frigid Pacific coasts of northeast Asia.<br><br>
+                      The <b>Allies</b>, otherwise known as the <b>Triple Entente</b>, included Britain, France, Russia, and later Italy and
+                      the United States which fought against the <b>Central Powers</b>, Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria.
+                      <br><br>
+                      The war lasted from August, 1914 to November, 1918 and sparked further conflicts which did not resolve until the early 1920's.
+                  </p>
+                  <h3 class="text-center">
+                      Guide
+                  </h3>
+                  <p class="text-body">
+                      The Great War was a complex and often misunderstood period in history. It involved a myriad of battles, key figures,
+                      human sufferings, and political events. The development of this timeline was not in the effort to cover all the
+                      events and nuances over those four-and-a-half years. Instead, it was created to provide a base understanding of and hopefully
+                      encouragement to learn more about the First World War and to, in some small way, help remove its title as the 'Forgotten War'.
+                      <br>
+                      <br>
+                      You are encouraged to follow along on the timeline in chronological order as many of the events build on each other. Take your time,
+                      explore the linked articles, and think critically of the parallels of this history in our own time. Happy learning!
+                  </p>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                 <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal" data-target="#useModal">Help</button>
               </div>
             </div>
           </div>
@@ -60,7 +91,17 @@
                 <h4 class="modal-title">Great War History Intro</h4>
               </div>
               <div class="modal-body">
-                <p>Use the timeline arrows to move back and forth.</p>
+                <h3 class="text-center">
+                      Timeline Navigation
+                  </h3>
+                  <p class="text-body">
+                      To move through the timeline and onto the next event, click on the right-hand side of the timeline's
+                      current article. To move more freely, the events on the timeline themselves can also be clicked.
+                      Events on the timeline are organized by type and theatre to keep things a little more organized.
+                      Zoom buttons on the left-hand side of the timeline allow you to see a larger or smaller space of time.
+                      Below the zoom buttons you will find a back button. <b>Be Careful!</b> This back button will take you
+                      <b>all of the way back</b> to the title screen.
+                  </p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -79,13 +120,6 @@
     </header>
 
 
-    <!-- plug-in integration -->
-    <body>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Including all compiled plugins -->
-        <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
-    </body>
 
     <div class="card">
       <div class="card-body">
@@ -112,8 +146,9 @@
             <!-- timelineJS allows for customization via a series of options passed as an argument to the timeline -->
             var additionalOptions = {
                     font: "{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}",
-                    scale_factor: 5,
-                    timenav_position: "left",
+                    scale_factor: 1,
+                    timenav_position: "center",
+                    initial_zoom: 34
                 }
 
             <!-- initializing timeline -->
@@ -131,6 +166,11 @@
 
     <!-- additional content boxes -->
     <div class="row">
+        <div class="col-sm-6">
+        <div class="card">
+        </div>
+        </div>
+      </div>
       <div class="col-sm-6">
         <div class="card">
           <div class="card-body">
