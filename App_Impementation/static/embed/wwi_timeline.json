@@ -11,9 +11,9 @@
     "events": [
         {
             "start_date": {
-                "year":			"1914",
-				"month":		"06",
-                "day":          "28"
+                "year":	"1914",
+				"month": "06",
+                "day": "28"
             },
             "media": {
                 "url": "https://i.pinimg.com/originals/7b/49/92/7b4992f9d19ceee603507add6d4c2be2.jpg"
@@ -26,29 +26,29 @@
         },
         {
             "start_date": {
-                "year":			"1914",
-				"month":		"06",
-                "day":          "29"
+                "year":	"1914",
+				"month": "06",
+                "day": "29"
             },
             "end_date": {
-                "year":			"1914",
-				"month":		"07",
-                "day":          "01"
+                "year":	 "1914",
+				"month": "07",
+                "day":  "01"
             },
             "media": {
                 "url": "https://en.wikipedia.org/wiki/July_Crisis#Austria-Hungary_edges_towards_war_with_Serbia_(29_June_%E2%80%93_1_July)"
             },
             "text": {
                 "headline": "Austria-Hungary edges towards war with Serbia",
-                "text": "With the assassination of an ironically pacifist Archduke, the Austro-Hungarian empire began to push for war with its southern neighbor. Austria-Hungary issued an ultimatum issued to Serbia with purposefully unagreeable terms."
+                "text": "With the assassination ironic assassination of a pacifist-leaning Archduke, the Austro-Hungarian empire began to push for war with its southern neighbor. Austria-Hungary issued an ultimatum issued to Serbia with purposefully unagreeable terms."
             },
             "group": "Politics"
         },
         {
             "start_date": {
-                "year":			"1914",
-				"month":		"07",
-                "day":          "28"
+                "year":	"1914",
+				"month": "07",
+                "day": "28"
             },
             "media": {
                 "url": "https://i.redd.it/s7me88r34wc71.jpg"
@@ -61,23 +61,59 @@
         },
         {
             "start_date": {
-                "year":			"1914",
-				"month":		"08",
-                "day":          "07"
+                "year": "1914",
+				"month": "07",
+                "day": "29"
+            },
+            "end_date": {
+                "year": "1914",
+                "month": "08",
+                "day": "07"
+            },
+            "media": {
+                "url": "https://preview.redd.it/1jxho6nwc1871.jpg?auto=webp&s=9ba49d90a37960a26437c197a4221a4900f63e0c"
+            },
+            "text": {
+                "headline": "Europe Descends Into War",
+                "text": "In one of the most shocking domino effects in modern history... in just over one week's time: Germany declares war on Russia and France, invades Luxembourg and Belgium, and forges a secret alliance with the Ottoman Empire. In response to the violation of Belgian neutrality, the United Kingdom and its dominions declare war on Germany. Montenegro declares war on Austria-Hungary, Austria-Hungary declares war on Russia, and Serbia declares war on Germany."
+            },
+            "group": "Politics"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "08",
+                "day": "07"
             },
             "end_date": {
                 "year": "1914",
                 "month": "09",
-                "day": "6"
+                "day": "06"
             },
             "media": {
-                "url": "https://en.wikipedia.org/wiki/Battle_of_the_Frontiers"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bataille_des_Fronti%C3%A8res.svg/1024px-Bataille_des_Fronti%C3%A8res.svg.png"
             },
             "text": {
                 "headline": "Battle of the Frontiers",
-                "text": "The Germans obtain a victory against the British Expeditionary Force and France's Fifth Army. The Germans, French, British and Belgians had tasted the cost of full-scale mechanized warfare. In less than a month, combined casualties would exceed 664,000."
+                "text": "The Germans obtain a victory against the British Expeditionary Force and France's Fifth Army. The Germans, French, British and Belgians had tasted the cost of full-scale mechanized warfare. In less than a month, combined casualties would exceed 664,000. Find out more at: <a href='https://en.wikipedia.org/wiki/Battle_of_the_Frontiers'>The Battle of the Frontiers</a>"
             },
             "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "08",
+                "day": "06"
+            },
+            "media": {
+                "url": "https://i.imgur.com/ZVXUq2J.jpg"
+            },
+            "text": {
+                "headline": "War Reaches Africa",
+                "text": "At the onset of WWI, the African continent remained largely colonized. Despite agreements of colonial neutrality in the event of a European war, as stated in the Congo Act of 1885, France and Britain invaded the German protectorate of Togoland. Find out more at: <a href='https://en.wikipedia.org/wiki/Togoland_campaign'>Togoland Campgain Summary and Aftermath</a>"
+            },
+            "group": "West African Campaign"
         }
+
     ]
 }

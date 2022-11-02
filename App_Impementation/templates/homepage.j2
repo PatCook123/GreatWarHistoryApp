@@ -1,3 +1,11 @@
+<?php
+    $data = array();
+    if(isset($_POST['name'])) {
+        $data[] = 'You entered:' . $_POST['name'];
+        exit(json_encode($data));
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +13,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Great War History Timeline</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" type="text/css">
+        <link rel="stylesheet"
+              href="{{ url_for('static', filename='css/style.css')}}"
+              type="text/css">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
         <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,12 +30,20 @@
                 $('#myModal').modal('show');
             });
         </script>
+
     </head>
+
 
 
     <header>
 
         <div class="btn-group btg-group-xl" role="group">
+            <a href="/">
+                <button type="button" class="btn btn-outline-primary">Home</button>
+            </a>
+            <a href="/tdih">
+                <button type="button" class="btn btn-outline-primary">This Day in History</button>
+            </a>
             <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Background</button>
             <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#useModal">Help</button>
         </div>
@@ -57,7 +75,7 @@
                       The <b>Allies</b>, otherwise known as the <b>Triple Entente</b>, included Britain, France, Russia, and later Italy and
                       the United States which fought against the <b>Central Powers</b>, Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria.
                       <br><br>
-                      The war lasted from August, 1914 to November, 1918 and sparked further conflicts which did not resolve until the early 1920's.
+                      The war lasted from August 1914 to November 1918 and sparked further conflicts which did not resolve until the early 1920's.
                   </p>
                   <h3 class="text-center">
                       Guide
@@ -119,7 +137,7 @@
 
     </header>
 
-
+    <body>
 
     <div class="card">
       <div class="card-body">
@@ -143,16 +161,16 @@
         <!-- timeline script class -->
         <script class="offset-6">
 
-            <!-- timelineJS allows for customization via a series of options passed as an argument to the timeline -->
-            var additionalOptions = {
-                    font: "{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}",
-                    scale_factor: 1,
-                    timenav_position: "center",
-                    initial_zoom: 34
-                }
+            // timelineJS allows for customization via a series of options passed as an argument to the timeline
+            let additionalOptions = {
+                font: "{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}",
+                scale_factor: 1,
+                timenav_position: "center",
+                initial_zoom: 34
+            };
 
             <!-- initializing timeline -->
-            var timeline = new TL.Timeline('timeline', '{{ url_for('static', filename='embed/popular_timelines.json') }}', additionalOptions);
+            var timeline = new TL.Timeline('timeline', '{{ url_for('static', filename='embed/wwi_timeline.json') }}', additionalOptions);
 
             TL.onresize = function(event) {
             timeline.updateDisplay();
@@ -164,36 +182,22 @@
     <br>
     <br>
 
-    <!-- additional content boxes -->
-    <div class="row">
-        <div class="col-sm-6">
-        <div class="card">
-        </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="p-4 card-title">Special title treatment</h5>
-            <p class="p-4 card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="p-4 card-title">Special title treatment</h5>
-            <p class="p-4 card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
+
+    <div class="container">
+        <form action="/events" method="post">
+            <label for="month">Month</label>
+            <input type="number" id="month" name="emonth">
+            <label for="day">Day</label>
+            <input type="number" id="day" name="eday">
+            <button type="submit">Submit</button>
+        </form>
     </div>
 
     <br>
     <br>
     <br>
+
+    </body>
 
     <footer>
         <h4 class="text-center">
@@ -201,4 +205,7 @@
         </h4>
     </footer>
 
+
 </html>
+
+

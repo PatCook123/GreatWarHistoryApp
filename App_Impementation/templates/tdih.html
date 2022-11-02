@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Flask App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+    <script type="text/javascript">
+           $(document).ready(function() {
+               $('form').on('submit', function (event) {
+                   const promiseGetData = new Promise(function (resolve, reject) {
+                   $.ajax({
+                       data: {
+                           inputMonth: $('#inputMonth').val(),
+                           inputDay: $('#inputDay').val(),
+                       },
+                       type: "POST",
+                       async: false,
+                       url: "/events2",
+                       success: function (data) {
+                           resolve(data)
+                       },
+                       error: function(error) {
+                           reject(error)
+                       }
+                   });
+                   event.preventDefault();
+               });
+                   promiseGetData.then((data) => {
+                       const obj = JSON.parse(data)
+                       const events = [];
+                       var event_data = '';
+                       $.each(obj['events'], function (index, element) {
+                           if(event_data.includes(index)) {
+                           } else {
+                               event_data += '<tr>';
+                               event_data += '<td>' + element.event + '</td>';
+                               event_data += '<td>' + element.theater_front_campaign + '</td>';
+                               event_data += '<td>' + element.year + '</td>';
+                               event_data += '</tr>';
+                               $('#output').append(event_data);
+                               event_data = '';
+                           }
+                         })
+                     }).catch(function (error) {
+                           var error_log = '';
+                           error_log += '<tr>';
+                           error_log += '<td>' + error.text + '</td>';
+                           error_log += '</tr>';
+                           $('#output').append(error_log);
+                       });
+                 });
+             });
+
+     </script>
+
+
+
+</head>
+
+<body>
+
+    <div id="shit">
+        Some standard stuff
+    </div>
+
+   <form class="form-inline">
+        <!--First Name-->
+        <div class="form-group">
+        <label class="sr-only" for="inputMonth">Month</label>
+        <input type="number" class="form-control" id="inputMonth" placeholder="Month">
+        </div>
+        <!--Last Name-->
+        <div class="form-group">
+        <label class="sr-only" for="inputDay">Last Name</label>
+        <input type="number" class="form-control" id="inputDay" placeholder="Day">
+        </div>
+
+        <!--Submit Button-->
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+        </br>
+
+    <table id="output">
+        <thead>
+            <tr>
+                <th>Len</th>
+                <th>Event</th>
+                <th>Campaign / Theatre</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+    </table>
+        </br>
+
+    </body>
+
+    <footer>
+        <h4 class="text-center">
+            Created by Patrick Cook - CS361
+        </h4>
+    </footer>
+
+
+</body>
+</html>
+
+
