@@ -15,6 +15,9 @@
 				"month": "06",
                 "day": "28"
             },
+            "background": {
+                "url": "https://www.historycrunch.com/uploads/4/1/1/6/41169839/franz-ferdinand-assassination-1_orig.jpg"
+            },
             "media": {
                 "url": "https://i.pinimg.com/originals/7b/49/92/7b4992f9d19ceee603507add6d4c2be2.jpg"
             },
@@ -34,6 +37,9 @@
                 "year":	 "1914",
 				"month": "07",
                 "day":  "01"
+            },
+            "background": {
+                "url": "https://images.squarespace-cdn.com/content/v1/555e3940e4b0b614ae725f98/1527263985936-PKYRWDQTFE5SYPPO2WTI/e67fb174b2f27107a3ec9febaa6eaf5f.jpeg"
             },
             "media": {
                 "url": "https://en.wikipedia.org/wiki/July_Crisis#Austria-Hungary_edges_towards_war_with_Serbia_(29_June_%E2%80%93_1_July)"
@@ -57,7 +63,7 @@
                 "headline": "Austria-Hungary declares war on Serbia",
                 "text": "Backed by assurances from its ally, Germany, Austria-Hungary officially began its war of retribution on Serbia, firing the first shots of the war early in the morning on the 29th of July. By the 12th of August, Germany and Austria-Hungary were at war with Serbia, Russia, France, England, and Belgium."
             },
-            "group": "Eastern Theatre"
+            "group": "Eastern Front"
         },
         {
             "start_date": {
@@ -103,17 +109,172 @@
             "start_date": {
                 "year": "1914",
 				"month": "08",
-                "day": "06"
+                "day": "09"
             },
             "media": {
                 "url": "https://i.imgur.com/ZVXUq2J.jpg"
             },
             "text": {
                 "headline": "War Reaches Africa",
-                "text": "At the onset of WWI, the African continent remained largely colonized. Despite agreements of colonial neutrality in the event of a European war, as stated in the Congo Act of 1885, France and Britain invaded the German protectorate of Togoland. Find out more at: <a href='https://en.wikipedia.org/wiki/Togoland_campaign'>Togoland Campgain Summary and Aftermath</a>"
+                "text": "At the onset of WWI, the African continent remained largely colonized. Despite agreements of colonial neutrality in the event of a European war, as stated in the Congo Act of 1885, France and Britain invaded the German protectorate of Togoland. Just five days later, German troops cross into British East Africa and occupy Taveta. Find out more about the Togoland Campaign: <a href='https://en.wikipedia.org/wiki/Togoland_campaign'>Togoland Campaign Summary and Aftermath</a>"
             },
-            "group": "West African Campaign"
+            "group": "Around The Globe"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "08",
+                "day": "17"
+            },
+            "end_date": {
+                "year": "1914",
+				"month": "09",
+                "day": "14"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Bundesarchiv_Bild_103-121-018%2C_Tannenberg%2C_Hindenburg_auf_Schlachtfeld.jpg"
+            },
+            "text": {
+                "headline": "Russian Defeat in East Prussia",
+                "text": "In the first major battle of the Eastern Front, the <a href='https://en.wikipedia.org/wiki/Battle_of_Tannenberg'>Battle of Tannenberg/a>\", Russian and Germany forces clashed in East Prussia. Out numbered nearly 50%, the German Eighth Army achieved victory and near total destruction of the Russian Second Army by utilizing advanced rail networks and movements and isolating and concentrating against the Russian First and Second armies in turn. Russia, having not encoded radio transmissions, gave Germany a clear picture of Russian troop movements during the battle. The brilliant victory brought considerable prestige to Field Marshal Paul von Hindenberg and his staff-officer Erich Ludendorff. Less than a month later, the Russian First Army would be severly defeated at the <a href='https://en.wikipedia.org/wiki/First_Battle_of_the_Masurian_Lakes'>First Battle of the Masurian Lakes</a>, forcing Russia out of East Prussia."
+            },
+            "group": "Eastern Front"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "08",
+                "day": "23"
+            },
+            "end_date": {
+                "year": "1914",
+				"month": "09",
+                "day": "11"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/BASA-1221K-1-68-14.jpg"
+            },
+            "text": {
+                "headline": "Battle of Lemberg",
+                "text": "While experiencing major setbacks against German Forces in East Prussia, Russian Forces achieve a major victory over Austria-Hungary in East Galicia, modern-day Lviv, Ukraine. Casualties on both sides exceeded 250,000. Find out more at: <a href='https://en.wikipedia.org/wiki/Battle_of_Galicia'>Battle of Lemberg Summary and Aftermath</a>"
+            },
+            "group": "Eastern Front"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "09",
+                "day": "5"
+            },
+            "end_date": {
+                "year": "1914",
+				"month": "09",
+                "day": "12"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_de_la_Marne%2C_Mus%C3%A9e_de_l%27Arm%C3%A9e-IMG_0987.jpg/800px-Taxi_de_la_Marne%2C_Mus%C3%A9e_de_l%27Arm%C3%A9e-IMG_0987.jpg"
+            },
+            "text": {
+                "headline": "German Advance Halted Near Paris",
+                "text": "Repeatedly failing to stop the German advance through Belgium and northeast France following the Battle of the Frontiers, British and French forces retreated under close German pursuit. The Allied Forces stood firm just east of Paris and finally halted the German Advance, causing the failure of the <a href='https://en.wikipedia.org/wiki/Schlieffen_Plan'>Schlieffen Plan</a> and the start of stalemate and trench warfare. A folk legend and boost to French morale took place when Parisian taxi drivers rushed 6,000 troops to the front just in time to stop a German breakthrough. Find out more at: <a href='https://en.wikipedia.org/wiki/First_Battle_of_the_Marne'>The First Battle of the Marne</a>"
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "08",
+                "day": "27"
+            },
+            "end_date": {
+                "year": "1914",
+				"month": "11",
+                "day": "7"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Wakamiya.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Siege_of_Tsingtao"
+            },
+            "text": {
+                "headline": "War Reaches Asia",
+                "text": "Within two months of the assassination of Archduke Franz Ferdinand three continents have felt the bitterness of modern war. The Japanese seaplane carrier <em>Wakamiya</em> conducts the world's first naval-launched air raids."
+            },
+            "group": "Around The Globe"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "09",
+                "day": "17"
+            },
+            "end_date": {
+                "year": "1914",
+				"month": "10",
+                "day": "19"
+            },
+            "background": {
+                "url": "https://i0.wp.com/farm9.staticflickr.com/8087/8481825367_48ed4f71ab_z.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Race_to_the_Sea"
+            },
+            "text": {
+                "headline": "Race to the Sea",
+                "text": "In an effort to outflank one another to the north, the Western Front takes shape as Allied and German forces stretch their lines from the Swiss border in the south to the English Channel in the north."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "10",
+                "day": "19"
+            },
+            "end_date": {
+                "year": "1914",
+				"month": "11",
+                "day": "22"
+            },
+            "media": {
+                "url": "https://www.historycrunch.com/uploads/4/1/1/6/41169839/first-battle-of-ypres-ww1_orig.jpeg"
+            },
+            "text": {
+                "headline": "First Battle of Ypres",
+                "text": "The battle began at the end of the Race to the Sea near Ypres Belgium. Attacks and counterattacks by both German and Allied forces proved indecisive as defensive tactics dominated the battlefield via machine guns and modern artillery."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "10",
+                "day": "29"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Enver_Pasha_1911.jpg"
+            },
+            "text": {
+                "headline": "Ottoman Empire Enters the Fray",
+                "text": "Ottoman War Minister Enver Pasha, conspiring with the German government and against the wishes of his own, arranged for Ottoman warships, newly purchased from Germany and still crewed by Germans, to instigate an attack from the Russian fleet in the Black Sea. German Admiral Souchon, placed in command of the Ottoman naval forces, instead ordered the direct assault of Russian ports in order to <em>\"Force the Turks, even against their will, to spread the war\"</em> In days, Russia, France, and the British would declare war on the Ottoman Empire. Due to genocide, poverty, and disease, nearly 14% of the Ottoman population would perish during the war, the vast majority being civilians."
+            },
+            "group": "Eastern Front"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "11",
+                "day": "2"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Blockade_of_Germany"
+            },
+            "text": {
+                "headline": "British Navy begins the blockade of Germany",
+                "text": "The British Navy, the most powerful in the world at that time, blockaded Germany to restrict the supply of goods to the Central Powers. The blockade would cause shortages in raw materials vital to the war effort and to agriculture. Food shortages ensued and hundreds of thousands would die of starvation by the end of the war."
+            },
+            "group": "Western Front"
         }
-
     ]
 }

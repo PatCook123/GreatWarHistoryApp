@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>First Flask App</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>This Day in Great War History</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css')}}"
+          type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css" rel="stylesheet"/>
 
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Including all compiled plugins -->
+    <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js"></script>
 
     <script type="text/javascript">
            $(document).ready(function() {
@@ -12,12 +26,12 @@
                    const promiseGetData = new Promise(function (resolve, reject) {
                    $.ajax({
                        data: {
-                           inputMonth: $('#inputMonth').val(),
-                           inputDay: $('#inputDay').val(),
+                           inputMonth: $('#dateChosen').val().slice(5,7),
+                           inputDay: $('#dateChosen').val().slice(8,10),
                        },
                        type: "POST",
                        async: false,
-                       url: "/events2",
+                       url: "/events",
                        success: function (data) {
                            resolve(data)
                        },
@@ -28,19 +42,27 @@
                    event.preventDefault();
                });
                    promiseGetData.then((data) => {
-                       const obj = JSON.parse(data)
-                       const events = [];
+                       $('#output tr').remove();
+                       $('#output').append('<tr>' +
+                           '                <th> Campaign / Theatre </th>' +
+                           '                <th> Year </th>' +
+                           '                <th> Event </th>' +
+                           '            </tr>');
+                       const obj = JSON.parse(data);
                        var event_data = '';
                        $.each(obj['events'], function (index, element) {
                            if(event_data.includes(index)) {
                            } else {
-                               event_data += '<tr>';
-                               event_data += '<td>' + element.event + '</td>';
-                               event_data += '<td>' + element.theater_front_campaign + '</td>';
-                               event_data += '<td>' + element.year + '</td>';
-                               event_data += '</tr>';
-                               $('#output').append(event_data);
-                               event_data = '';
+                               if(element.event === 'Siege of Mora') {
+                               } else {
+                                   event_data += '<tr>';
+                                   event_data += '<td>' + element.theater_front_campaign + '</td>';
+                                   event_data += '<td>' + element.year + '</td>';
+                                   event_data += '<td>' + element.event + '</td>';
+                                   event_data += '</tr>';
+                                   $('#output').append(event_data);
+                                   event_data = '';
+                               }
                            }
                          })
                      }).catch(function (error) {
@@ -54,56 +76,110 @@
              });
 
      </script>
-
-
-
 </head>
+
+
+<header>
+
+     <div class="btn-group btg-group-xl p-3 m-3" role="group">
+            <a href="/">
+                <button type="button" class="btn btn-outline-primary">Home</button>
+            </a>
+            <a href="/tdih">
+                <button type="button" class="btn btn-outline-primary">This Day in History</button>
+            </a>
+            <a>
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#tdihUseModal">Help</button>
+            </a>
+     </div>
+
+
+</header>
 
 <body>
 
-    <div id="shit">
-        Some standard stuff
+    <div class="page-header">
+        <div class="container">
+        <h2 class="text-center">
+            This Day in Great War History
+            <small>By Patrick Cook</small>
+        </h2>
+        </div>
+        <div class="container">
+            <h5 class="text-center">The First World War lasted from July 1914 to November 11th, 1918 and was fought on three
+        continents. Comprised of a myriad of events, battles, and skirmishes, a tragedy was occurring each and every day
+        for those four-and-a-half years. </h5>
+        </div>
+
     </div>
 
-   <form class="form-inline">
-        <!--First Name-->
-        <div class="form-group">
-        <label class="sr-only" for="inputMonth">Month</label>
-        <input type="number" class="form-control" id="inputMonth" placeholder="Month">
-        </div>
-        <!--Last Name-->
-        <div class="form-group">
-        <label class="sr-only" for="inputDay">Last Name</label>
-        <input type="number" class="form-control" id="inputDay" placeholder="Day">
-        </div>
+    <br>
+    <br>
 
-        <!--Submit Button-->
-        <button type="submit" class="btn btn-default">Submit</button>
-    </form>
-        </br>
 
-    <table id="output">
-        <thead>
-            <tr>
-                <th>Len</th>
-                <th>Event</th>
-                <th>Campaign / Theatre</th>
-                <th>Year</th>
-            </tr>
-        </thead>
-    </table>
-        </br>
+    <div class="container">
+        <form class="form-inline">
+            <div class="row text-center">
+              <label for="dateChosen">Chosen Date:</label>
+              <input type="date" id="dateChosen" name="dateChosen">
+              <input type="submit">
+            </div>
+        </form>
 
+
+
+        <table class="table-bordered" id="output">
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
     </body>
 
-    <footer>
+    <footer class="p-3 m-3">
         <h4 class="text-center">
             Created by Patrick Cook - CS361
         </h4>
+        <br><br><br>
     </footer>
 
+<!-- Modal -->
+    <div id="tdihUseModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
 
-</body>
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">This Day in Great War History</h4>
+          </div>
+          <div class="modal-body">
+            <h3 class="text-center">
+                  Usage Guide
+              </h3>
+              <p class="text-body">
+                  To move through the timeline and onto the next event, click on the right-hand side of the timeline's
+                  current article. To move more freely, the events on the timeline themselves can also be clicked.
+                  Events on the timeline are organized by type and theatre to keep things a little more organized.
+                  Zoom buttons on the left-hand side of the timeline allow you to see a larger or smaller space of time.
+                  Below the zoom buttons you will find a back button. <b>Be Careful!</b> This back button will take you
+                  <b>all of the way back</b> to the title screen.
+              </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </html>
 
 

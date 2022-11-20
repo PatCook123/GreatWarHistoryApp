@@ -3,6 +3,23 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+html {
+  font-family: "American Typewriter";
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+h3 {
+  font-family: "American Typewriter";
+}
+
+
+body {
+}
+
+
+
 .btn-default,
 .btn-primary,
 .btn-success,

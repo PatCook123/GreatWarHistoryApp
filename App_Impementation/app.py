@@ -9,25 +9,22 @@ bootstrap = Bootstrap4(app)
 
 @app.route('/')
 def home():
-    return render_template('homepage.j2')
+    return render_template('homepage.html')
 
 
 @app.route('/tdih')
 def tdih():
     return render_template('tdih.html')
 
-@app.route('/events')
-def getevents():
-    month = request.args.get("inputMonth")
-    day = request.args.get("inputDay")
-    data = json.dumps({"month": month, "day": day})
-    print(data)
-    response = requests.get('http://localhost:5100/events', json=data)
-    print(response)
-    return response.text
+@app.route('/countries')
+def countries():
+    return render_template('countries.html')
 
-@app.route('/events2', methods=['POST'])
-def getevents2():
+# Sent by calendar input form on TDIH page. Provides month and day,
+# receives json object in return containing events on that day from
+# microservice.
+@app.route('/events', methods=['POST'])
+def get_events():
     month = int(request.form['inputMonth'])
     day = int(request.form['inputDay'])
     data = {"month": month, "day": day}

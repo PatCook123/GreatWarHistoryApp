@@ -1,18 +1,20 @@
+
 html {
-    font-family: "American Typewriter", Serif;
+    overflow: hidden;
+    height: 100%;
+    font-family: "American Typewriter", Serif
 }
 
-
 body {
-
+    overflow: auto;
+    height: 100%;
 }
 
 body::after {
   content: "";
-  background: url("../images/satirical map wwi.jpeg");
-    background-repeat: no-repeat;
     background-size: cover;
-  opacity: 0.5;
+    background: url("../images/satirical map wwi.jpeg") no-repeat fixed;
+    opacity: 0.2;
   top: 0;
   left: 0;
   bottom: 0;
@@ -26,4 +28,59 @@ h1 {
     color: black;
     align-content: center;
     text-align: center;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.datepicker td, .datepicker th {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.85rem;
+}
+
+.datepicker {
+    margin-bottom: 3rem;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+body {
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+
+.input-group {
+    border-radius: 30rem;
+}
+
+input.form-control {
+    border-radius: 30rem 0 0 30rem;
+    border: none;
+}
+
+input.form-control:focus {
+    box-shadow: none;
+}
+
+input.form-control::placeholder {
+    font-style: italic;
+}
+
+.input-group-text {
+    border-radius: 0 30rem 30rem 0;
+    border: none;
+}
+
+.datepicker-dropdown {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
