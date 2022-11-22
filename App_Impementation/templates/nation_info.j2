@@ -1,0 +1,38 @@
+{% extends "more_info.html" %}
+{% block nation_content %}
+
+    <div class="row text-center">
+        <img src={{nation["flag"]}} width="240" height="160"></img>
+    </div>
+    <div class="row text-center">
+        <h3>{{nation["name"]}}</h3>
+    </div>
+    <br>
+
+    <div class="container-bg-custom1">
+        <div class="container justify-content-center" style="width: 80%">
+        <br>
+            <p class="text-center">
+                <dl>
+                    <dt><h4><u>Joined the Great War</u></h4></dt>
+                        <dd>{{nation["date_joined"]}}</dd>
+                    <dt><h4><u>Alignment and Allies</u></h4></dt>
+                        <dd><b>Alignment: </b>{{nation["alignment"]}}</dd>
+                        <dd><b>Allies: </b>{{nation["allies"]}}</dd>
+                    <dt><h4><u>Pre-war Status</u></h4></dt>
+                        <dd><b>Population: </b>{{nation["prewar_pop"]}}</dd>
+                        <dd><b>GDP: </b>{{nation["gdp"]}}</dd>
+                        <dd><b>Economy: </b>{{nation["economy"]}}</dd>
+                    <dt><h4><u>Forces</u></h4></dt>
+                        <dd><b>Mobilized: </b>{{nation["mobilized"]}}</dd>
+                        <dd><b>Losses: </b>{{nation["casualties"]}}</dd>
+                    <dt><h4><u>Participation</u></h4></dt>
+                        <dd>{{nation["participation"]}}</dd>
+                </dl>
+            </p>
+        </div>
+    </div>
+    <br>
+
+
+{% endblock nation_content %}

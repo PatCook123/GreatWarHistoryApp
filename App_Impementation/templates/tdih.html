@@ -44,9 +44,9 @@
                    promiseGetData.then((data) => {
                        $('#output tr').remove();
                        $('#output').append('<tr>' +
-                           '                <th> Campaign / Theatre </th>' +
-                           '                <th> Year </th>' +
-                           '                <th> Event </th>' +
+                           '                <th scope="col"> Campaign / Theatre </th>' +
+                           '                <th scope="col"> Year </th>' +
+                           '                <th scope="col"> Event </th>' +
                            '            </tr>');
                        const obj = JSON.parse(data);
                        var event_data = '';
@@ -88,11 +88,13 @@
             <a href="/tdih">
                 <button type="button" class="btn btn-outline-primary">This Day in History</button>
             </a>
+            <a href="/more_info">
+                <button type="button" class="btn btn-outline-primary">Further Info: Nations</button>
+            </a>
             <a>
             <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#tdihUseModal">Help</button>
             </a>
      </div>
-
 
 </header>
 
@@ -102,13 +104,12 @@
         <div class="container">
         <h2 class="text-center">
             This Day in Great War History
-            <small>By Patrick Cook</small>
         </h2>
         </div>
         <div class="container">
             <h5 class="text-center">The First World War lasted from July 1914 to November 11th, 1918 and was fought on three
         continents. Comprised of a myriad of events, battles, and skirmishes, a tragedy was occurring each and every day
-        for those four-and-a-half years. </h5>
+        for those fateful four-and-a-half years.</h5>
         </div>
 
     </div>
@@ -116,11 +117,11 @@
     <br>
     <br>
 
-
     <div class="container">
+        <p></p>
         <form class="form-inline">
             <div class="row text-center">
-              <label for="dateChosen">Chosen Date:</label>
+              <label for="dateChosen">Chose a Date:</label>
               <input type="date" id="dateChosen" name="dateChosen">
               <input type="submit">
             </div>
@@ -128,8 +129,8 @@
 
 
 
-        <table class="table-bordered" id="output">
-            <thead>
+        <table class="table table-bordered" id="output">
+            <thead class="thead-light">
             </thead>
             <tbody>
             </tbody>
@@ -165,12 +166,9 @@
                   Usage Guide
               </h3>
               <p class="text-body">
-                  To move through the timeline and onto the next event, click on the right-hand side of the timeline's
-                  current article. To move more freely, the events on the timeline themselves can also be clicked.
-                  Events on the timeline are organized by type and theatre to keep things a little more organized.
-                  Zoom buttons on the left-hand side of the timeline allow you to see a larger or smaller space of time.
-                  Below the zoom buttons you will find a back button. <b>Be Careful!</b> This back button will take you
-                  <b>all of the way back</b> to the title screen.
+                  Utilize the date input field to pick a date, click submit, and a table containing the events of
+                  The First World War that occurred or were occurring on that date will populate below. If you'd like
+                  to see events on a different date, simply submit a different date using the same date input field.
               </p>
           </div>
           <div class="modal-footer">

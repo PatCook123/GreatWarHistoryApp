@@ -2,7 +2,7 @@
 html {
     overflow: hidden;
     height: 100%;
-    font-family: "American Typewriter", Serif
+    font-family: "American Typewriter", Serif, serif
 }
 
 body {
@@ -28,6 +28,11 @@ h1 {
     color: black;
     align-content: center;
     text-align: center;
+}
+
+.container-bg-custom1 {
+    background: lightgray;
+    opacity: 0.8;
 }
 
 /*

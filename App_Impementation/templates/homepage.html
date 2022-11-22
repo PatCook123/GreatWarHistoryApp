@@ -11,7 +11,6 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
         <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Including all compiled plugins -->
@@ -29,65 +28,72 @@
 
     <header>
 
-        <div class="btn-group btg-group-xl" role="group">
+        <div class="btn-group btg-group-xl p-3 m-3" role="group">
             <a href="/">
                 <button type="button" class="btn btn-outline-primary">Home</button>
             </a>
             <a href="/tdih">
                 <button type="button" class="btn btn-outline-primary">This Day in History</button>
             </a>
-            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Background</button>
-            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#useModal">Help</button>
+            <a href="/more_info">
+                <button type="button" class="btn btn-outline-primary">Further Info: Nations</button>
+            </a>
+            <a>
+                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Background</button>
+            </a>
+            <a>
+                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#useModal">Help</button>
+            </a>
         </div>
 
         <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
-          <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
 
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Great War History Intro</h4>
+                <!-- Modal content-->
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Great War History Intro</h4>
+                      </div>
+                      <div class="modal-body">
+                            <h2 class="text-center">
+                            Welcome!
+                            </h2>
+                            <br>
+                            <h3 class="text-center">
+                              Background of the Great War
+                            </h3>
+                            <br>
+                            <p class="text-body">
+                                  The Great War, or the First World War, was the first truly global conflict in human history. Its
+                                  theatres involved 32 countries fielding more than 70 million military personnel, and took the lives of between 8.5 and
+                                  15 million soldiers. Fighting spread across Europe and stretched from the southern plains of Africa, to the deserts of the
+                                  Middle-East, all the way to the frigid Pacific coasts of northeast Asia.<br><br>
+                                  The <b>Allies</b>, otherwise known as the <b>Triple Entente</b>, included Britain, France, Russia, and later Italy and
+                                  the United States which fought against the <b>Central Powers</b>, Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria.
+                                  <br><br>
+                                  The war lasted from August 1914 to November 1918 and sparked further conflicts which did not resolve until the early 1920's.
+                            </p>
+                            <h3 class="text-center">
+                              Guide
+                            </h3>
+                            <p class="text-body">
+                                  The Great War was a complex and often misunderstood period in history. It involved a myriad of battles, key figures,
+                                  human sufferings, and political events. The development of this timeline was not in the effort to cover all the
+                                  events and nuances over those four-and-a-half years. Instead, it was created to provide a base understanding of and hopefully
+                                  encouragement to learn more about the First World War and to, in some small way, help remove its title as the 'Forgotten War'.
+                                  <br>
+                                  <br>
+                                  You are encouraged to follow along on the timeline in chronological order as many of the events build on each other. Take your time,
+                                  explore the linked articles, and think critically of the parallels of this history in our own time. Happy learning!
+                            </p>
+                      </div>
+                      <div class="modal-footer">
+                         <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal" data-target="#useModal">Help</button>
+                      </div>
+                    </div>
               </div>
-              <div class="modal-body">
-                <h2 class="text-center">
-                    Welcome!
-                </h2>
-                  <br>
-                  <h3 class="text-center">
-                      Background of the Great War
-                  </h3>
-                  <br>
-                  <p class="text-body">
-                      The Great War, or the First World War, was the first truly global conflict in human history. Its
-                      theatres involved 32 countries fielding more than 70 million military personnel, and took the lives of between 8.5 and
-                      15 million soldiers. Fighting bled across Europe and stretched from the southern plains of Africa, to the deserts of the
-                      Middle-East, all the way to the frigid Pacific coasts of northeast Asia.<br><br>
-                      The <b>Allies</b>, otherwise known as the <b>Triple Entente</b>, included Britain, France, Russia, and later Italy and
-                      the United States which fought against the <b>Central Powers</b>, Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria.
-                      <br><br>
-                      The war lasted from August 1914 to November 1918 and sparked further conflicts which did not resolve until the early 1920's.
-                  </p>
-                  <h3 class="text-center">
-                      Guide
-                  </h3>
-                  <p class="text-body">
-                      The Great War was a complex and often misunderstood period in history. It involved a myriad of battles, key figures,
-                      human sufferings, and political events. The development of this timeline was not in the effort to cover all the
-                      events and nuances over those four-and-a-half years. Instead, it was created to provide a base understanding of and hopefully
-                      encouragement to learn more about the First World War and to, in some small way, help remove its title as the 'Forgotten War'.
-                      <br>
-                      <br>
-                      You are encouraged to follow along on the timeline in chronological order as many of the events build on each other. Take your time,
-                      explore the linked articles, and think critically of the parallels of this history in our own time. Happy learning!
-                  </p>
-              </div>
-              <div class="modal-footer">
-                 <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal" data-target="#useModal">Help</button>
-              </div>
-            </div>
-          </div>
         </div>
 
         <!-- Modal -->
