@@ -1,85 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>More Information on Nations of The Great War</title>
-    <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/style.css')}}"
-          type="text/css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
-    <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css" rel="stylesheet"/>
 
-    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="UTF-8">
+        <title>More Information on Nations of The Great War</title>
+        <link rel="stylesheet"
+              href="{{ url_for('static', filename='css/style.css')}}"
+              type="text/css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Including all compiled plugins -->
-    <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
-    <!-- Bootstrap Date-Picker Plugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Including all compiled plugins -->
+        <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
 
-</head>
+    </head>
 
 
-<header>
+    <header>
 
-     <div class="btn-group btg-group-xl p-3 m-3" role="group">
-            <a href="/">
-                <button type="button" class="btn btn-outline-primary">Home</button>
-            </a>
-            <a href="/tdih">
-                <button type="button" class="btn btn-outline-primary">This Day in History</button>
-            </a>
-            <a href="/more_info">
-                <button type="button" class="btn btn-outline-primary">Further Info: Nations</button>
-            </a>
-            <a>
-            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#infoUseModal">Help</button>
-            </a>
-     </div>
+         <div class="btn-group btg-group-xl p-3 m-3" role="group">
+                <a href="/">
+                    <button type="button" class="btn btn-outline-primary">Home</button>
+                </a>
+                <a href="/tdih">
+                    <button type="button" class="btn btn-outline-primary">This Day in History</button>
+                </a>
+                <a href="/more_info">
+                    <button type="button" class="btn btn-outline-primary">Further Info: Nations</button>
+                </a>
+                <a>
+                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#infoUseModal">Help</button>
+                </a>
+         </div>
 
-</header>
+    </header>
 
-<body>
+    <body>
 
-    <div class="page-header">
-        <div class="container">
-        <h2 class="text-center">
-            More Info on the Great War
-        </h2>
-        </div>
-        <div class="container">
-            <h5 class="text-center">Select a country below to learn more!</h5>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row text-center">
-            <div class="col">
-                <form class="form-inline justify-content-center" role="form" method="POST" action="/more_info">
-                    <div>
-                        <label for="nationDropdown">Select Nation</label><br>
-                       <select class="form-control mx-auto" name="nationDropdown" id="nationDropdown" style="width:auto">
-                            {% for item in nation_dropdown %}
-                            <option value="{{item}}">{{item}}</option>
-                            {% endfor %}
-                        </select>
-                        <button type="submit" value="Select_Nation" name="Select_Nation" class="btn btn-primary" formaction="/more_info">More Info</button>
-                    </div>
-                </form>
+        <div class="page-header">
+            <div class="container">
+            <h2 class="text-center">
+                More Info on the Great War
+            </h2>
+            </div>
+            <div class="container">
+                <h5 class="text-center">Select a country below to learn more!</h5>
             </div>
         </div>
-    </div>
-    <br>
 
-</body>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <form class="form-inline justify-content-center" role="form" method="POST" action="/more_info">
+                        <div>
+                            <label for="nationDropdown">Select Nation</label><br>
+                           <select class="form-control mx-auto" name="nationDropdown" id="nationDropdown" style="width:auto">
+                                {% for item in nation_dropdown %}
+                                <option value="{{item}}">{{item}}</option>
+                                {% endfor %}
+                            </select>
+                            <button type="submit" value="Select_Nation" name="Select_Nation" class="btn btn-primary" formaction="/more_info">More Info</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+
+    </body>
 
     <div class="container justify-content-center">
     {% block nation_content %}
     {% endblock nation_content %}
     </div>
+
     <footer class="p-3 m-3">
         <h4 class="text-center">
             Created by Patrick Cook - CS361
@@ -87,32 +84,38 @@
         <br><br><br>
     </footer>
 
-<!-- Modal -->
+    <!--    -->
     <div id="infoUseModal" class="modal fade" role="dialog">
-      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
 
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Further Info: Great War Nations</h4>
+                <!-- Modal content-->
+                <div class="modal-content">
+                      <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Further Info: Great War Nations</h4>
+                      </div>
+                      <div class="modal-body">
+                            <h3 class="text-center">
+                                  Usage Guide
+                            </h3>
+                            <p class="text-body">
+                                WWI involved more than 100 nations from all corners of the globe. At the onset of the
+                                war, European colonialism dominated Africa and South Asia. As the war grew in scale,
+                                these colonies would be coerced to send millions of troops to fight in Europe. Many of
+                                these troops would hail from French Africa and British India.
+                                <br>
+                                <br>
+                                To learn more about the major powers involved in the war, select a nation from the
+                                dropdown under "Select Nation" and click "More Info".
+                                If you'd like to learn about a different nation than initially selected, simply
+                                select another nation from the dropdown and click "More Info" again.
+                            </p>
+                      </div>
+                      <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                </div>
           </div>
-          <div class="modal-body">
-            <h3 class="text-center">
-                  Usage Guide
-              </h3>
-              <p class="text-body">
-                  WWI involved more than 100 nations across all populated continents. To learn more about the major
-                  powers involved in the war, select a nation from the dropdown under "Select Nation" and click "More Info".
-                  If you'd like to learn about a different country than initially selected, simply click another from
-                  the dropdown and click "More Info" again.
-              </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
     </div>
 
 </html>

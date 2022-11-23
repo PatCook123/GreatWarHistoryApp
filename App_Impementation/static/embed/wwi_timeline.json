@@ -25,7 +25,7 @@
                 "headline": "Assassination of Archduke Franz Ferdinand",
                 "text": "At the Congress of Berlin that brought an end to the Russo-Turkish War in 1878, Austria-Hungary was given the right to occupy Ottoman Bosnia and Herzegovina. Thirty years later, Austria-Hungary formally annexed the territory, violating the Berlin treaty[1] and upsetting the fragile balance of power in the Balkans, precipitating a diplomatic crisis. Sarajevo became the provincial capital and Oskar Potiorek, a military commander, became governor of the province. In the summer of 1914, Emperor Franz Joseph ordered Archduke Franz Ferdinand, heir presumptive to the Austro-Hungarian throne, to attend military exercises due to be held in Bosnia. After the exercises, on 28 June, Ferdinand toured Sarajevo with his wife, Sophie. Six armed irredentists, five Bosnian Serbs and one Bosnian Muslim, coordinated by Danilo Ilić, seeking to free Bosnia of Austria-Hungarian colonial rule and unite all Southern Slavs, lay in wait along Ferdinand's announced motorcade route.[2]\n\nAt 10:10 a.m., Nedeljko Čabrinović threw a hand grenade at Ferdinand's motorcade damaging the following car and injuring its occupants.[3] Later that morning, Gavrilo Princip managed to shoot and kill Franz Ferdinand and Sophie as they drove back to visit the wounded in the hospital. Čabrinović and Princip took cyanide, but it only sickened them. Both were arrested.[4] Within 45 minutes of the shooting, Princip began telling his story to interrogators.[5] The next day, based on the interrogations of the two assassins, Potiorek telegraphed Vienna to announce that Princip and Čabrinović had conspired in Belgrade with others to obtain bombs, revolvers, and money to kill the Archduke. A police dragnet quickly caught most of the conspirators."
             },
-            "group":  "Politics"
+            "group":  "Politics & Global Events"
         },
         {
             "start_date": {
@@ -48,7 +48,7 @@
                 "headline": "Austria-Hungary edges towards war with Serbia",
                 "text": "With the assassination ironic assassination of a pacifist-leaning Archduke, the Austro-Hungarian empire began to push for war with its southern neighbor. Austria-Hungary issued an ultimatum issued to Serbia with purposefully unagreeable terms."
             },
-            "group": "Politics"
+            "group": "Politics & Global Events"
         },
         {
             "start_date": {
@@ -83,7 +83,7 @@
                 "headline": "Europe Descends Into War",
                 "text": "In one of the most shocking domino effects in modern history... in just over one week's time: Germany declares war on Russia and France, invades Luxembourg and Belgium, and forges a secret alliance with the Ottoman Empire. In response to the violation of Belgian neutrality, the United Kingdom and its dominions declare war on Germany. Montenegro declares war on Austria-Hungary, Austria-Hungary declares war on Russia, and Serbia declares war on Germany."
             },
-            "group": "Politics"
+            "group": "Politics & Global Events"
         },
         {
             "start_date": {
@@ -118,7 +118,7 @@
                 "headline": "War Reaches Africa",
                 "text": "At the onset of WWI, the African continent remained largely colonized. Despite agreements of colonial neutrality in the event of a European war, as stated in the Congo Act of 1885, France and Britain invaded the German protectorate of Togoland. Just five days later, German troops cross into British East Africa and occupy Taveta. Find out more about the Togoland Campaign: <a href='https://en.wikipedia.org/wiki/Togoland_campaign'>Togoland Campaign Summary and Aftermath</a>"
             },
-            "group": "Around The Globe"
+            "group": "Mediterranean and Balkan Campaigns"
         },
         {
             "start_date": {
@@ -201,7 +201,7 @@
                 "headline": "War Reaches Asia",
                 "text": "Within two months of the assassination of Archduke Franz Ferdinand three continents have felt the bitterness of modern war. The Japanese seaplane carrier <em>Wakamiya</em> conducts the world's first naval-launched air raids."
             },
-            "group": "Around The Globe"
+            "group": "Politics & Global Events"
         },
         {
             "start_date": {
@@ -259,7 +259,7 @@
                 "headline": "Ottoman Empire Enters the Fray",
                 "text": "Ottoman War Minister Enver Pasha, conspiring with the German government and against the wishes of his own, arranged for Ottoman warships, newly purchased from Germany and still crewed by Germans, to instigate an attack from the Russian fleet in the Black Sea. German Admiral Souchon, placed in command of the Ottoman naval forces, instead ordered the direct assault of Russian ports in order to <em>\"Force the Turks, even against their will, to spread the war\"</em> In days, Russia, France, and the British would declare war on the Ottoman Empire. Due to genocide, poverty, and disease, nearly 14% of the Ottoman population would perish during the war, the vast majority being civilians."
             },
-            "group": "Eastern Front"
+            "group": "Politics & Global Events"
         },
         {
             "start_date": {
@@ -274,7 +274,423 @@
                 "headline": "British Navy begins the blockade of Germany",
                 "text": "The British Navy, the most powerful in the world at that time, blockaded Germany to restrict the supply of goods to the Central Powers. The blockade would cause shortages in raw materials vital to the war effort and to agriculture. Food shortages ensued and hundreds of thousands would die of starvation by the end of the war."
             },
+            "group": "Mediterranean and Balkan Campaigns"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "11",
+                "day": "2"
+            },
+            "end_date": {
+                "year": "1914",
+				"month": "11",
+                "day": "16"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Bergmann_Offensive"
+            },
+            "text": {
+                "headline": "War Reaches Caucasus",
+                "text": "Ottoman and Russian forces clash in the Caucasus region resulting in a Russian defeat."
+            },
+            "group": "Middle East, Gallipoli & Caucasus"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "12",
+                "day": "17"
+            },
+            "end_date": {
+                "year": "1915",
+                "month": "3",
+                "day": "17"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/M_57_5_les_abris_dans_la_tranch%C3%A9.jpg/800px-M_57_5_les_abris_dans_la_tranch%C3%A9.jpg",
+                "caption":  "French troops entrenched during the First Battle of Champagne",
+                "credit": "https://en.wikipedia.org/wiki/First_Battle_of_Champagne#/media/File:M_57_5_les_abris_dans_la_tranch%C3%A9.jpg"
+            },
+            "text": {
+                "headline": "Winter Actions on the Western Front",
+                "text": "The attack on the Noyon Salient marked the second offensive by the Allies against German forces since the First Battle of Ypres, which had ended one month prior. French leadership had aimed to attack a large bulge in the Western Front called the Noyon Salient, and attempted to do so by attacking it on its northern and southern flanks. These attacks would be known as The First Battle of Champagne and The First Battle of Artois. The results were inconclusive as German defensive positions made a large breakthrough unobtainable."
+            },
             "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "12",
+                "day": "17"
+            },
+            "end_date": {
+                "year": "1915",
+                "month": "3",
+                "day": "17"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sarikam.jpg/1280px-Sarikam.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_Sarikamish"
+            },
+            "text": {
+                "headline": "Russian Victory at Sarakamish",
+                "text": "The battle resulted in a Russian victory. The Ottomans employed a strategy which demanded highly mobile troops, capable of arriving at specified objectives at precise times. This approach was based both on German and Napoleonic tactics. The Ottoman troops, ill-prepared for winter conditions, suffered major casualties in the Allahuekber Mountains. Around 25,000 Ottoman soldiers froze to death before the start of the battle."
+            },
+            "group": "Middle East, Gallipoli & Caucasus"
+        },
+        {
+            "start_date": {
+                "year": "1914",
+				"month": "12",
+                "day": "24"
+            },
+            "background": {
+                "url": "https://en.wikipedia.org/wiki/Christmas_truce#/media/File:Illustrated_London_News_-_Christmas_Truce_1914.jpg"
+            },
+            "media": {
+                "url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/t_JM_ArticleMainImageFaceDetect/491303",
+                "caption": "British and German soldiers play football during the Christmas Truce",
+                "credit": "https://www.jpost.com/international/article-689680"
+            },
+            "text": {
+                "headline": "The Christmas Truce",
+                "text": "On Christmas Eve, 1914, British and German soldiers halted fighting to celebrate an improvised truce. Soldiers met in no man's land and fraternized, sung carols together, and shared alcohol, cigarettes, and food with one another. Men realized that the faces and voices of the opposing trench were men just like them, fighting in a pointless war. Fearing further fraternization, military leadership on both sides cracked down. No such truce would happen for the rest of the war."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+				"month": "1",
+                "day": "31"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_Humin-Bolim%C3%B3w"
+            },
+            "text": {
+                "headline": "First Use of Chemical Weapons",
+                "text": "The Germans fire 18,000 thousand shells containing xylyl bromide at Russian troops. Luckily for the Russians, the extremely cold conditions kept the liquid from vaporizing."
+            },
+            "group": "Eastern Front"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+				"month": "2",
+                "day": "4"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Loss_of_HMS_Pathfinder%2C_September_5th_1914_Art.IWMART5721.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Atlantic_U-boat_campaign_of_World_War_I"
+            },
+            "text": {
+                "headline": "Germany Begins Unrestricted Submarine Warfare",
+                "text": "In response to the British Naval Blockade against the Central Powers and the ever-increasing supply of materiel to the Allies, Germany begins targeting Allied trade routes with U-boat submarines. By the end of the war, 4,000 ships carrying 8 million tons of goods would be sunk by the German Navy."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+				"month": "2",
+                "day": "7"
+            },
+            "end_date": {
+                "year": "1915",
+				"month": "2",
+                "day": "28"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Ostfront_18021915.jpg",
+                "credit": "https://en.wikipedia.org/wiki/Second_Battle_of_the_Masurian_Lakes"
+            },
+            "text": {
+                "headline": "Second Battle of Masurian Lakes",
+                "text": "Part of the a four-pronged Central Powers effort to inflict as much damage on Russian forces and morale as possible to redirect resources to the stagnating Western Front. The Russians took heavy losses in failed counterattacks againts the advancing Germans. Over 80,000 Russian troops were taken prisoner and the Germans managed to gain a piece of Russian territory, pushing the Russians out of East Prussia."
+            },
+            "group": "Eastern Front"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "3",
+                "day": "5"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/1919_British_map_ahead_of_Paris_Peace_Conference_-_extract_regarding_1915_Constantinople_Agreement.png"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Constantinople_Agreement"
+            },
+            "text": {
+                "headline": "Great Britain and France promise Russia Constantinople",
+                "text": "In the aftermath of several major Russian defeats in late 1914 and early 1915, Britain and France sought to provide further incentive to Russia to ensure their continued participation in the war. With the Gallipoli campaign beginning just a few weeks before, the Allied forces were confident in their capture of the ancient city in relatively short order."
+            },
+            "group": "Politics & Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "3",
+                "day": "5"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/1919_British_map_ahead_of_Paris_Peace_Conference_-_extract_regarding_1915_Constantinople_Agreement.png"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Constantinople_Agreement"
+            },
+            "text": {
+                "headline": "Great Britain and France promise Russia Constantinople",
+                "text": "In the aftermath of several major Russian defeats in late 1914 and early 1915, Britain and France sought to provide further incentive to Russia to ensure their continued participation in the war. With the Gallipoli campaign beginning just a few weeks before, the Allied forces were confident in their capture of the ancient city in relatively short order."
+            },
+            "group": "Politics & Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "3",
+                "day": "5"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Landing_at_Gallipoli_%2813901951593%29.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Gallipoli_campaign"
+            },
+            "text": {
+                "headline": "The Gallipoli Campaign Begins",
+                "text": "The operation to take the Dardanelles and gain Allied access to the Black Sea was thwarted by an underestimated Ottoman defense. Over 250,000 casualties would be inflicted  on each side. The bloody failure would haunt its Winston Churchill, then First Lord of the Admiralty of the British Navy, for the remainder of his career. From Wikipedia's The Gallipoli Campaign - 'In Turkey, it is regarded as a defining moment in the history of the state, a final surge in the defence of the motherland as the Ottoman Empire retreated. The struggle formed the basis for the Turkish War of Independence and the declaration of the Republic of Turkey eight years later, with Mustafa Kemal Atatürk, who rose to prominence as a commander at Gallipoli, as founder and president.'"
+            },
+            "group": "Middle East, Gallipoli & Caucasus"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "4",
+                "day": "22"
+            },
+            "end_date": {
+                "year": "1915",
+                "month": "5",
+                "day": "25"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/John_Lakeland%2C_Contrasting_Photographic_Views_of_Ypres_and_forget-me-not_cards%2C_item_8.jpg",
+                "caption": "The city of Ypres after the Second Battle of Ypres."
+            },
+            "text": {
+                "headline": "The Second Battle of Ypres",
+                "text": "At this battle, German forces launched the first mass-scale chemical attack, using the heavier-than-air chlorine gas in an effort to break the stalemate. The battle was fought over a British-held salient in surrounding the Belgian town of Ypres. By the end of the battle, German forces had succeeded in pushing British lines back but failed to capture the town itself."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "5",
+                "day": "2"
+            },
+            "end_date": {
+                "year": "1915",
+                "month": "7",
+                "day": "13"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Gorlice%E2%80%93Tarn%C3%B3w_offensive"
+            },
+            "text": {
+                "headline": "Gorlice-Tarnów Offensive",
+                "text": "The defeats in Galicia and Poland caused large salients to form in the Russian lines. Recognizing the risk of large swaths of Russian lines being surrounded by German and Austro-Hungarian forces, Russian leadership ordered what would come to be called The Great Retreat and retreated out of Poland and Galicia and Hungary, and into Russian territory."
+            },
+            "group": "Eastern Front"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "5",
+                "day": "7"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/RMS_Lusitania_coming_into_port%2C_possibly_in_New_York%2C_1907-13-crop.jpg/1920px-RMS_Lusitania_coming_into_port%2C_possibly_in_New_York%2C_1907-13-crop.jpg",
+                "caption": "The Lusitania coming into port.",
+                "credit":  "https://en.wikipedia.org/wiki/RMS_Lusitania#/media/File:RMS_Lusitania_coming_into_port,_possibly_in_New_York,_1907-13-crop.jpg"
+            },
+            "text": {
+                "headline": "The Sinking of the Lusitania",
+                "text": "German u-boat U-20 torpedoed the British Liner off the coast of Ireland on Friday May 7th, 1915. 1,198 civilians and crew perished on the cruiser which was not armed for battle. Among the dead were 128 American citizens, causing protests and anti-German sentiments to grow in the US. However, the cruiser was carrying 173 tons of munitions, which made her a legitimate military target in the eyes of the German Navy."
+            },
+            "group": "Mediterranean and Balkan Campaigns"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "5",
+                "day": "23"
+            },
+            "media": {
+                "url": "https://www.scoopnest.com/user/prchovanec/601888032141156353-may-23-1915-front-page-of-italian-newspaper-corriere-della-sera-34italy-declares-war-on-austriahung"
+            },
+            "text": {
+                "headline": "Italy Declares War on Austria-Hungary",
+                "text": "On May 3, Italy resigned from the Triple Alliance and later declared war against Austria-Hungary at midnight on May 23. At the beginning of the war, the Italian army boasted less than 300,000 men, but mobilization greatly increased its size to more than 5 million by the war's end in November 1918. - '“Italy Enters World War I.” National WWI Museum and Memorial, https://www.theworldwar.org/learn/about-wwi/italy-enters-world-war-i#:~:text=On%20May%203%2C%20Italy%20resigned,war's%20end%20in%20November%201918."
+            },
+            "group": "Politics & Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "6",
+                "day": "23"
+            },
+            "end_date": {
+                "year": "1915",
+                "month": "7",
+                "day": "7"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/G%C3%B6rz_Br%C3%BCcke_Isonzo.jpg/1280px-G%C3%B6rz_Br%C3%BCcke_Isonzo.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/First_Battle_of_the_Isonzo"
+            },
+            "text": {
+                "headline": "The Italian Front Takes Form",
+                "text": "The Battles of the Isonzo were a series of 12 battles fought between Italian and Austro-Hungarian Armies in present-day Slovenia and along the Isonzo River. After 12 battles, the Central Powers would gain a decisive victory in the Isonzo Campaign after mixed results during the previous 11 battles."
+            },
+            "group": "Mediterranean and Balkan Campaigns"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "9",
+                "day": "25"
+            },
+            "end_date": {
+                "year": "1915",
+                "month": "10",
+                "day": "8"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/British_infantry_advancing_at_Loos_25_September_1915.jpg",
+                "caption": "British infantry advancing through gas at Loos, 25 September, 1915.",
+                "credit": "https://en.wikipedia.org/wiki/Battle_of_Loos#/media/File:British_infantry_advancing_at_Loos_25_September_1915.jpg"
+            },
+            "text": {
+                "headline": "Battle of Loos",
+                "text": "The Battle of Loos took place from 25 September to 8 October 1915 in France on the Western Front, during the First World War. It was the biggest British attack of 1915, the first time that the British used poison gas and the first mass engagement of New Army units. The French and British tried to break through the German defences in Artois and Champagne and restore a war of movement. Despite improved methods, more ammunition and better equipment, the Franco-British attacks were largely contained by the Germans, except for local losses of ground. The British gas attack failed to neutralize the defenders and the artillery bombardment was too short to destroy the barbed wire or machine gun nests. German tactical defensive proficiency was still dramatically superior to the British offensive planning and doctrine, resulting in a British defeat. - “Battle of Loos.” Wikipedia, Wikimedia Foundation, 16 Nov. 2022, https://en.wikipedia.org/wiki/Battle_of_Loos. "
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1915",
+                "month": "10",
+                "day": "7"
+            },
+            "end_date": {
+                "year": "1915",
+                "month": "12",
+                "day": "4"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/%D0%9F%D1%80%D0%B2%D0%B8_%D1%81%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8_%D1%80%D0%B0%D1%82_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83_7.jpg",
+                "caption": "Austro-Hungarian troops capture Belgrade in 1915",
+                "credit": "https://en.wikipedia.org/wiki/Serbian_campaign#/media/File:%D0%9F%D1%80%D0%B2%D0%B8_%D1%81%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8_%D1%80%D0%B0%D1%82_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83_7.jpg"
+            },
+            "text": {
+                "headline": "Bulgaria Enters the Fray - Serbia Invaded",
+                "text": "Both the Allies and the Central Powers tried to get Bulgaria to pick a side in the Great War. Bulgaria and Serbia had fought two wars in the last 30 years: the Serbo-Bulgarian War in 1885, and the Second Balkan War in 1913. The result was that the Bulgarian government and people felt that Serbia was in possession of lands to which Bulgaria was entitled, and when the Central Powers offered to give them what they claimed, the Bulgarians entered the war on their side. The Austro-Hungarians and Germans began their attack on 7 October with their troops crossing the Drina and Sava rivers, covered by heavy artillery fire. Once they crossed the Danube, the Germans and Austro-Hungarians moved on Belgrade itself. Then, on 14 October, the Bulgarian Army attacked from the north of Bulgaria towards Niš and from the south towards Skopje. The Bulgarian First Army defeated the Serbian Second Army at the Battle of Morava, while the Bulgarian Second Army defeated the Serbians at the Battle of Ovche Pole. With the Bulgarian breakthrough, the Serbian position became untenable; the main army in the north (around Belgrade) could either retreat or be surrounded and forced to surrender. In the Battle of Kosovo, the Serbs made a last and desperate attempt to join the two incomplete Allied divisions that made a limited advance from the south, but were unable to gather enough forces due to the pressure from the north and east. Marshal Putnik ordered the Great Retreat, a full retreat south and west through Montenegro and into Albania. The weather was terrible, the roads poor, and the army had to help the tens of thousands of civilians who retreated with them with almost no supplies or food left. But the bad weather and poor roads worked for the refugees as well, as the Central Powers forces could not press them hard enough, so they evaded capture. Many of the fleeing soldiers and civilians did not make it to the coast, though – they were lost to hunger, disease, and attacks by enemy forces and Albanian tribal bands,[42] due to the memory of suppressed rebellions and massacres of Albanians in the Balkan Wars."
+            },
+            "group": "Mediterranean and Balkan Campaigns"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "1",
+                "day": "9"
+            },
+            "media": {
+                "url": "https://s3-eu-west-1.amazonaws.com/fwr-blog/live/Gallipoli_December_1915_evacuation_of_guns_and_troops_on_towed_rafts_lighters_and_other_craft_SMALL.jpg",
+                "caption": "The Evacuation of Gallipoli, 1915",
+                "credit": "forces-war-records.co.uk/blog/2015/12/11/the-successful-evacuation-of-gallipoli-1915"
+            },
+            "text": {
+                "headline": "Gallipoli Campaign Ends in Allied Defeat",
+                "text": "After the failure of the August 1915 offensives at Suvla and Anzac, Allied forces on the Gallipoli peninsula found themselves unable to do much more than dig in and endure the harsh weather conditions. And so the decision was taken to evacuate the Anzac forces, as well as the British troops, after local commanders became increasingly concerned about the problem of getting supplies to Gallipoli during the winter, when many storms were predicted. The Gallipoli Campaign was a costly failure for the Allies, with 27,000 French and nearly 115,000 British and Dominion casualties. New Zealand suffered around 8,000 casualties, including 2,779 dead. Australia’s 28,000 casualties included more than 8,700 fatalities. Turkish casualties have been estimated at 250,000, of which at least 65,000 are believed to have been fatalities. “The Successful Evacuation of Gallipoli 1915.” Discover The Military Ancestor In Your Family With Forces War Records, https://www.forces-war-records.co.uk/blog/2015/12/11/the-successful-evacuation-of-gallipoli-1915. "
+            },
+            "group": "Mediterranean and Balkan Campaigns"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "2",
+                "day": "21"
+            },
+            "end_date": {
+                "year": "1916",
+                "month": "12",
+                "day": "18"
+            },
+            "background": {
+                "url": "https://preview.redd.it/1qapu37grga81.jpg?width=640&crop=smart&auto=webp&s=1d867ef6b84a399c86d96ad7605035544f46bfe4"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_Verdun"
+            },
+            "text": {
+                "headline": "WWI's Longest Battle - Verdun",
+                "text": "Germany sought to bleed France dry by launching the offensive at Verdun, a system of forts important to French strategy and morale. Over 300,000 died in the nearly 10-month battle."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "5",
+                "day": "31"
+            },
+            "end_date": {
+                "year": "1916",
+                "month": "6",
+                "day": "1"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/HMS_Warspite_and_HMS_Malaya_during_the_battle_of_Jutland.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_Jutland"
+            },
+            "text": {
+                "headline": "The Battle of Jutland",
+                "text": "The Battle of Jutland, fought over two days from 31 May 1916, was the largest sea battle of the First World War. It pitted 151 British warships against 99 German ships and was the first and only time the two battle fleets confronted each other. “Battle of Jutland Timeline.” Imperial War Museums, https://www.iwm.org.uk/history/battle-of-jutland-timeline#:~:text=The%20Battle%20of%20Jutland%2C%20fought,battle%20fleets%20confronted%20each%20other. "
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "11",
+                "day": "11"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/The_Hundred_Days_Offensive%2C_August-november_1918_Q9271.jpg/1280px-The_Hundred_Days_Offensive%2C_August-november_1918_Q9271.jpg"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Armisticetrain_%28slight_crop%29.jpg",
+                "caption": "Photograph taken after reaching agreement for the armistice that ended World War I.",
+                "credit": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918#/media/File:Armisticetrain_(slight_crop).jpg"
+            },
+            "text": {
+                "headline": "Armistice Signed, War Ended",
+                "text": "On the 11th hour of the 11th day of the 11th month, Germany surrendered to the Allies. Fighting continued up to 11 AM on the 11th of November, and 2,738 men died on the last day of the war on the Western Front."
+            },
+            "group": "Politics"
         }
     ]
 }

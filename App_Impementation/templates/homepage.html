@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
     <head>
         <meta charset="UTF-8">
         <title>Great War History Timeline</title>
@@ -10,6 +9,7 @@
               type="text/css">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
         <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -18,16 +18,15 @@
 
         <script type="text/javascript">
             $(window).on('load', function() {
-                $('#myModal').modal('show');
+                $('#welcomeModal').modal('show');
             });
         </script>
-
     </head>
 
 
 
     <header>
-
+        <!-- button group in place of navbar -->
         <div class="btn-group btg-group-xl p-3 m-3" role="group">
             <a href="/">
                 <button type="button" class="btn btn-outline-primary">Home</button>
@@ -46,86 +45,6 @@
             </a>
         </div>
 
-        <!-- Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Great War History Intro</h4>
-                      </div>
-                      <div class="modal-body">
-                            <h2 class="text-center">
-                            Welcome!
-                            </h2>
-                            <br>
-                            <h3 class="text-center">
-                              Background of the Great War
-                            </h3>
-                            <br>
-                            <p class="text-body">
-                                  The Great War, or the First World War, was the first truly global conflict in human history. Its
-                                  theatres involved 32 countries fielding more than 70 million military personnel, and took the lives of between 8.5 and
-                                  15 million soldiers. Fighting spread across Europe and stretched from the southern plains of Africa, to the deserts of the
-                                  Middle-East, all the way to the frigid Pacific coasts of northeast Asia.<br><br>
-                                  The <b>Allies</b>, otherwise known as the <b>Triple Entente</b>, included Britain, France, Russia, and later Italy and
-                                  the United States which fought against the <b>Central Powers</b>, Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria.
-                                  <br><br>
-                                  The war lasted from August 1914 to November 1918 and sparked further conflicts which did not resolve until the early 1920's.
-                            </p>
-                            <h3 class="text-center">
-                              Guide
-                            </h3>
-                            <p class="text-body">
-                                  The Great War was a complex and often misunderstood period in history. It involved a myriad of battles, key figures,
-                                  human sufferings, and political events. The development of this timeline was not in the effort to cover all the
-                                  events and nuances over those four-and-a-half years. Instead, it was created to provide a base understanding of and hopefully
-                                  encouragement to learn more about the First World War and to, in some small way, help remove its title as the 'Forgotten War'.
-                                  <br>
-                                  <br>
-                                  You are encouraged to follow along on the timeline in chronological order as many of the events build on each other. Take your time,
-                                  explore the linked articles, and think critically of the parallels of this history in our own time. Happy learning!
-                            </p>
-                      </div>
-                      <div class="modal-footer">
-                         <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal" data-target="#useModal">Help</button>
-                      </div>
-                    </div>
-              </div>
-        </div>
-
-        <!-- Modal -->
-        <div id="useModal" class="modal fade" role="dialog">
-          <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Great War History Intro</h4>
-              </div>
-              <div class="modal-body">
-                <h3 class="text-center">
-                      Timeline Navigation
-                  </h3>
-                  <p class="text-body">
-                      To move through the timeline and onto the next event, click on the right-hand side of the timeline's
-                      current article. To move more freely, the events on the timeline themselves can also be clicked.
-                      Events on the timeline are organized by type and theatre to keep things a little more organized.
-                      Zoom buttons on the left-hand side of the timeline allow you to see a larger or smaller space of time.
-                      Below the zoom buttons you will find a back button. <b>Be Careful!</b> This back button will take you
-                      <b>all of the way back</b> to the title screen.
-                  </p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div class ="page-header">
             <h2 class="text-center">
                 The Great War History Timeline
@@ -137,15 +56,15 @@
 
     <body>
     <div class="text-center">
-    <div class="card">
-      <div class="card-body">
-        <blockquote class="blockquote mb-0">
-          <p>Never think that war, no matter how necessary, nor how justified, is not a crime.</p>
-          <footer class="blockquote-footer">Ernest Hemingway<cite>1946</cite></footer>
-        </blockquote>
-      </div>
-    </div>
+        <div class="card">
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                <p>Never think that war, no matter how necessary, nor how justified, is not a crime.</p>
+                <footer class="blockquote-footer">Ernest Hemingway<cite>  1946</cite></footer>
+                </blockquote>
+            </div>
         </div>
+    </div>
 
     <!-- timeline element -->
     <div.tl>
@@ -163,9 +82,9 @@
             // timelineJS allows for customization via a series of options passed as an argument to the timeline
             let additionalOptions = {
                 font: "{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}",
-                scale_factor: 1,
-                timenav_position: "center",
-                initial_zoom: 34
+                scale_factor: 55,
+                timenav_position: "bottom",
+                optimal_tick_width: 20
             };
 
             <!-- initializing timeline -->
@@ -181,8 +100,6 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
 
     </body>
 
@@ -191,6 +108,86 @@
             Created by Patrick Cook - CS361
         </h4>
     </footer>
+
+    <!-- Modal -->
+    <div id="welcomeModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Great War History Intro</h4>
+                  </div>
+                  <div class="modal-body">
+                        <h2 class="text-center">
+                        Welcome!
+                        </h2>
+                        <br>
+                        <h3 class="text-center">
+                          Background of the Great War
+                        </h3>
+                        <br>
+                        <p class="text-body">
+                              The Great War, or the First World War, was the first truly global conflict in human history. Its
+                              theatres involved 32 countries fielding more than 70 million military personnel, and took the lives of between 8.5 and
+                              15 million soldiers. Fighting spread across Europe and stretched from the southern plains of Africa, to the deserts of the
+                              Middle-East, all the way to the frigid Pacific coasts of northeast Asia.<br><br>
+                              The <b>Allies</b>, otherwise known as the <b>Triple Entente</b>, included Britain, France, Russia, and later Italy and
+                              the United States which fought against the <b>Central Powers</b>, Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria.
+                              <br><br>
+                              The war lasted from August 1914 to November 1918 and sparked further conflicts which did not resolve until the early 1920's.
+                        </p>
+                        <h3 class="text-center">
+                          Guide
+                        </h3>
+                        <p class="text-body">
+                              The Great War was a complex and often misunderstood period in history. It involved a myriad of battles, key figures,
+                              human sufferings, and political events. The development of this timeline was not in the effort to cover all the
+                              events and nuances over those four-and-a-half years. Instead, it was created to provide a base understanding of and hopefully
+                              encouragement to learn more about the First World War and to, in some small way, help remove its title as the 'Forgotten War'.
+                              <br>
+                              <br>
+                              You are encouraged to follow along on the timeline in chronological order as many of the events build on each other. Take your time,
+                              explore the linked articles, and think critically of the parallels of this history in our own time. Happy learning!
+                        </p>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal" data-target="#useModal">Help</button>
+                  </div>
+                </div>
+          </div>
+    </div>
+
+    <!-- Usage Guide Modal -->
+    <div id="useModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Great War History Intro</h4>
+            </div>
+                <div class="modal-body">
+                    <h3 class="text-center">
+                      Timeline Navigation
+                    </h3>
+                        <p class="text-body">
+                              To move through the timeline and onto the next event, click on the right-hand side of the timeline's
+                              current article. To move more freely, the events on the timeline themselves can also be clicked.
+                              Events on the timeline are organized by type and theatre to keep things a little more organized.
+                              Zoom buttons on the left-hand side of the timeline allow you to see a larger or smaller space of time.
+                              Below the zoom buttons you will find a back button. <b>Be Careful!</b> This back button will take you
+                              <b>all of the way back</b> to the title screen.
+                        </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </html>
 

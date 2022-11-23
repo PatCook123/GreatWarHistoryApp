@@ -1,82 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>This Day in Great War History</title>
-    <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/style.css')}}"
-          type="text/css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
-    <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css" rel="stylesheet"/>
 
-    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="UTF-8">
+        <title>This Day in Great War History</title>
+        <link rel="stylesheet"
+              href="{{ url_for('static', filename='css/style.css')}}"
+              type="text/css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='css/icons/text_antique_ancient_manuscript_parchment_document_old_paper_scroll_icon_210749.ico') }}">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css" rel="stylesheet"/>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Including all compiled plugins -->
-    <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
-    <!-- Bootstrap Date-Picker Plugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js"></script>
+        <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script type="text/javascript">
-           $(document).ready(function() {
-               $('form').on('submit', function (event) {
-                   const promiseGetData = new Promise(function (resolve, reject) {
-                   $.ajax({
-                       data: {
-                           inputMonth: $('#dateChosen').val().slice(5,7),
-                           inputDay: $('#dateChosen').val().slice(8,10),
-                       },
-                       type: "POST",
-                       async: false,
-                       url: "/events",
-                       success: function (data) {
-                           resolve(data)
-                       },
-                       error: function(error) {
-                           reject(error)
-                       }
-                   });
-                   event.preventDefault();
-               });
-                   promiseGetData.then((data) => {
-                       $('#output tr').remove();
-                       $('#output').append('<tr>' +
-                           '                <th scope="col"> Campaign / Theatre </th>' +
-                           '                <th scope="col"> Year </th>' +
-                           '                <th scope="col"> Event </th>' +
-                           '            </tr>');
-                       const obj = JSON.parse(data);
-                       var event_data = '';
-                       $.each(obj['events'], function (index, element) {
-                           if(event_data.includes(index)) {
-                           } else {
-                               if(element.event === 'Siege of Mora') {
-                               } else {
-                                   event_data += '<tr>';
-                                   event_data += '<td>' + element.theater_front_campaign + '</td>';
-                                   event_data += '<td>' + element.year + '</td>';
-                                   event_data += '<td>' + element.event + '</td>';
-                                   event_data += '</tr>';
-                                   $('#output').append(event_data);
-                                   event_data = '';
-                               }
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Including all compiled plugins -->
+        <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+        <!-- Bootstrap Date-Picker Plugin -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js"></script>
+
+        <!-- script used to send request to events microservice through app.py and populate page table with response -->
+        <script type="text/javascript">
+               $(document).ready(function() {
+                   $('form').on('submit', function (event) {
+                       const promiseGetData = new Promise(function (resolve, reject) {
+                       $.ajax({
+                           data: {
+                               inputMonth: $('#dateChosen').val().slice(5,7),
+                               inputDay: $('#dateChosen').val().slice(8,10),
+                           },
+                           type: "POST",
+                           async: false,
+                           url: "/events",
+                           success: function (data) {
+                               resolve(data)
+                           },
+                           error: function(error) {
+                               reject(error)
                            }
-                         })
-                     }).catch(function (error) {
-                           var error_log = '';
-                           error_log += '<tr>';
-                           error_log += '<td>' + error.text + '</td>';
-                           error_log += '</tr>';
-                           $('#output').append(error_log);
                        });
+                       event.preventDefault();
+                   });
+                       promiseGetData.then((data) => {
+                           $('#output tr').remove();
+                           $('#output').append('<tr>' +
+                               '                <th scope="col">  Campaign / Theatre  </th>' +
+                               '                <th scope="col">  Year  </th>' +
+                               '                <th scope="col">  Event  </th>' +
+                               '            </tr>');
+                           const obj = JSON.parse(data);
+                           var event_data = '';
+                           $.each(obj['events'], function (index, element) {
+                               if(event_data.includes(index)) {
+                               } else {
+                                   if(element.event === 'Siege of Mora') {
+                                   } else {
+                                       event_data += '<tr>';
+                                       event_data += '<td>' + element.theater_front_campaign + '</td>';
+                                       event_data += '<td>' + element.year + '</td>';
+                                       event_data += '<td>' + element.event + '</td>';
+                                       event_data += '</tr>';
+                                       $('#output').append(event_data);
+                                       event_data = '';
+                                   }
+                               }
+                             })
+                         }).catch(function (error) {
+                               var error_log = '';
+                               error_log += '<tr>';
+                               error_log += '<td>' + error.text + '</td>';
+                               error_log += '</tr>';
+                               $('#output').append(error_log);
+                           });
+                     });
                  });
-             });
 
-     </script>
-</head>
+         </script>
+    </head>
 
 
 <header>
@@ -117,65 +119,73 @@
     <br>
     <br>
 
-    <div class="container">
-        <p></p>
-        <form class="form-inline">
-            <div class="row text-center">
-              <label for="dateChosen">Chose a Date:</label>
-              <input type="date" id="dateChosen" name="dateChosen">
-              <input type="submit">
-            </div>
-        </form>
+        <div class="container">
+            <p></p>
+            <form class="form-inline">
+                <div class="row text-center">
+                  <label for="dateChosen">Chose a Date:</label>
+                  <input type="date" id="dateChosen" name="dateChosen">
+                  <input type="submit">
+                </div>
+            </form>
 
 
 
-        <table class="table table-bordered" id="output">
-            <thead class="thead-light">
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
 
-        <br>
-        <br>
-        <br>
-        <br>
 
-    </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        </div>
     </body>
+
+
+    <div class="container">
+        <div class="container-bg-custom1">
+            <table class="table table-bordered" id="output">
+                    <thead class="thead-light">
+                    </thead>
+                    <tbody>
+                    </tbody>
+            </table>
+        </div>
+    </div>
 
     <footer class="p-3 m-3">
         <h4 class="text-center">
             Created by Patrick Cook - CS361
         </h4>
+        <p class="text-center"><cite>“Timeline of World War I.” Wikipedia, Wikimedia Foundation, 15 Nov. 2022, https://en.wikipedia.org/wiki/Timeline_of_World_War_I. </cite></p>
         <br><br><br>
     </footer>
 
 <!-- Modal -->
     <div id="tdihUseModal" class="modal fade" role="dialog">
-      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
 
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">This Day in Great War History</h4>
+                <!-- Modal content-->
+                <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">This Day in Great War History</h4>
+                      </div>
+                      <div class="modal-body">
+                          <h3 class="text-center">
+                              Usage Guide
+                          </h3>
+                          <p class="text-body">
+                              Utilize the date input field to pick a date, click submit, and a table containing the events of
+                              The First World War that occurred or were occurring on that date will populate below. If you'd like
+                              to see events on a different date, simply submit a different date using the same date input field.
+                          </p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                </div>
           </div>
-          <div class="modal-body">
-            <h3 class="text-center">
-                  Usage Guide
-              </h3>
-              <p class="text-body">
-                  Utilize the date input field to pick a date, click submit, and a table containing the events of
-                  The First World War that occurred or were occurring on that date will populate below. If you'd like
-                  to see events on a different date, simply submit a different date using the same date input field.
-              </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
     </div>
 
 </html>
