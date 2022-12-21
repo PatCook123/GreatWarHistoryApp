@@ -41,7 +41,20 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                                 "significant battles of the "
                                                 "war on the Italian Front, "
                                                 "Eastern, and Balkan "
-                                                "Fronts."},
+                                                "Fronts.",
+                               "sources": "Wikipedia, Source. "
+                                          "Austria-Hungary in World War I: "
+                                          "Assassination of Archduke Franz "
+                                          "Ferdinand of Austria, U-Boat "
+                                          "Campaign, Romania during World "
+                                          "War I. Books LLC, Wiki Series, "
+                                          "2011. \n "
+                                          "“World War I.” HISTORY CRUNCH - "
+                                          "History Articles, Biographies, "
+                                          "Infographics, Resources and More, "
+                                          "https://www.historycrunch.com"
+                                          "/world-war-i.html#/. Accessed 23 "
+                                          "Nov. 2022."},
            "Germany": {"name": "The Germany Empire",
                        "date_joined": "August 1st, 1914",
                        "alignment": "Central Powers / Triple Alliance",
@@ -50,8 +63,7 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                "%E2%80%931918%29.svg/1280px-Flag_of_Germany_"
                                "%281867%E2%80%931918%29.svg.png",
                        "casualties": "2.2 to 2.8 million dead, 4.2 million "
-                                     "wounded",
-                       "gdp": "$264.3 billion",
+                                     "wounded", "gdp": "$264.3 billion",
                        "economy": "Domestically, Germany rode an economic "
                                   "and technological boom for most of the "
                                   "late 1800s. Coal production, iron ore "
@@ -98,7 +110,17 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                         "triggered the German Revolution of "
                                         "1918–1919 which overthrew the "
                                         "monarchy and established the Weimar "
-                                        "Republic."},
+                                        "Republic.",
+                       "sources": "“Germany in World War I.” HISTORY CRUNCH "
+                                  "- History Articles, Biographies, "
+                                  "Infographics, Resources and More, "
+                                  "https://www.historycrunch.com/germany-in"
+                                  "-world-war-i.html#/. Accessed 23 Nov. "
+                                  "2022. \n "
+                                  "Alpha History. “Germany Before.” World "
+                                  "War I, Alpha History, 30 June 2012, "
+                                  "https://alphahistory.com/worldwar1"
+                                  "/germany/."},
            "Ottoman Empire": {"name": "The Ottoman Empire",
                               "date_joined": "October 29th, 1914",
                               "alignment": "Central Powers / Triple Alliance",
@@ -161,7 +183,16 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                                "more than 1.5 million in the "
                                                "Armenian Genocide, "
                                                "still denied by the Turkish "
-                                               "government today.."},
+                                               "government today.",
+                              "sources": "“The Ottoman Empire Before World "
+                                         "War I.” World War I, "
+                                         "Alpha History, 25 June 2012, "
+                                         "https://alphahistory.com/worldwar1"
+                                         "/ottoman-empire/. \n "
+                                         "Ottoman Empire in World War I: "
+                                         "Armenian Genocide, T. e. Lawrence, "
+                                         "Black Hand, Gallipoli Campaign. "
+                                         "Books LLC, Wiki Series, 2011."},
            "Bulgaria": {"name": "The Tsardom of Bulgaria",
                         "date_joined": "October 7th, 1915",
                         "alignment": "Central Powers / Triple Alliance",
@@ -214,7 +245,18 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                          "arriving from Salonika, Greece. "
                                          "The kingdom scored major victories "
                                          "against Serbia and helped swiftly "
-                                         "defeat Romania."},
+                                         "defeat Romania.",
+                        "sources": "Wikipedia, Source. Bulgaria in World War "
+                                   "I: Bulgaria during World War I, "
+                                   "Macedonian Front, Serbian Campaign, "
+                                   "Eastern Front. Books LLC, Wiki Series, "
+                                   "2011. \n "
+                                   "Wikipedia contributors. “Bulgaria during "
+                                   "World War I.” Wikipedia, The Free "
+                                   "Encyclopedia, 8 Oct. 2022, "
+                                   "https://en.wikipedia.org/w/index.php"
+                                   "?title=Bulgaria_during_World_War_I&oldid"
+                                   "=1114887054."},
            "France": {"name": "France", "date_joined": "August 3rd, 1914",
                       "alignment": "Allies / Triple Entente",
                       "flag": "https://upload.wikimedia.org/wikipedia"
@@ -249,7 +291,17 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                        "battles of the war including Verdun, "
                                        "the First Battle of the Marne, "
                                        "the Battle of the Frontiers, and the "
-                                       "Nivelle Offensive."},
+                                       "Nivelle Offensive.",
+                      "sources": "Alpha History. “France Before.” World War "
+                                 "I, Alpha History, 28 June 2012, "
+                                 "https://alphahistory.com/worldwar1/france"
+                                 "/. \n "
+                                 "“France in World War I.” HISTORY CRUNCH - "
+                                 "History Articles, Biographies, "
+                                 "Infographics, Resources and More, "
+                                 "https://www.historycrunch.com/france-in"
+                                 "-world-war-i.html#/. Accessed 23 Nov. "
+                                 "2022."},
            "United Kingdom": {"name": "United Kingdom",
                               "date_joined": "August 4th, 1914",
                               "alignment": "Allies / Triple Entente",
@@ -288,7 +340,19 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                                "and reorganised. "
                                                "Additionally, the war marked "
                                                "the founding of the Royal "
-                                               "Air Force."},
+                                               "Air Force.",
+                              "source": "Alpha History. “Great Britain "
+                                        "Before.” World War I, "
+                                        "Alpha History, 29 June 2012, "
+                                        "https://alphahistory.com/worldwar1"
+                                        "/great-britain/. \n "
+                                        "“Britain in World War I.” HISTORY "
+                                        "CRUNCH - History Articles, "
+                                        "Biographies, Infographics, "
+                                        "Resources and More, "
+                                        "https://www.historycrunch.com"
+                                        "/britain-in-world-war-i.html#/. "
+                                        "Accessed 23 Nov. 2022."},
            "Russia": {"name": "Russian Empire",
                       "date_joined": "July 31st, 1914",
                       "alignment": "Allies / Triple Entente",
@@ -296,8 +360,7 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                               "/thumb/f/f3/Flag_of_Russia.svg/1280px"
                               "-Flag_of_Russia.svg.png",
                       "casualties": "2.8 to 3.4 million dead, 3.8 to 4.9 "
-                                    "million wounded",
-                      "gdp": "257.7 billion",
+                                    "million wounded", "gdp": "257.7 billion",
                       "economy": "Economically and industrially, the Russian "
                                  "empire lagged well behind the rest of "
                                  "Europe. While the Industrial Revolution "
@@ -330,7 +393,17 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                        "reserves in Ottoman territory. "
                                        "Russia would exit the war in March "
                                        "of 1918 in the wake of the Russian "
-                                       "Revolution."},
+                                       "Revolution.",
+                      "sources": "Alpha History. “Russia Before.” World War "
+                                 "I, Alpha History, 27 June 2012, "
+                                 "https://alphahistory.com/worldwar1/russia"
+                                 "/. \n "
+                                 "“Russia in World War I.” HISTORY CRUNCH - "
+                                 "History Articles, Biographies, "
+                                 "Infographics, Resources and More, "
+                                 "https://www.historycrunch.com/russia-in"
+                                 "-world-war-i.html#/. Accessed 23 Nov. "
+                                 "2022."},
            "Serbia": {"name": "Kingdom of Serbia",
                       "date_joined": "July 28th, 1914",
                       "alignment": "Allies / Triple Entente",
@@ -339,8 +412,7 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                               "%80%931918%29.svg/1280px-Flag_of_Serbia_"
                               "%281882%E2%80%931918%29.svg.png",
                       "casualties": "750,000 to 1.25 million dead, 133,000 "
-                                    "wounded.",
-                      "gdp": "Unknown",
+                                    "wounded.", "gdp": "Unknown",
                       "economy": "Serbia was an overwhelmingly rural "
                                  "society. It had few mineral or industrial "
                                  "resources and had less than 10,000 people "
@@ -363,7 +435,16 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                        "two-thirds of its forces. Most "
                                        "soldiers did not have up-to-date "
                                        "uniforms and most wore the shoes or "
-                                       "boots they brought with them."},
+                                       "boots they brought with them.",
+                      "sources": "Alpha History. “Serbia Before.” World War "
+                                 "I, Alpha History, 26 Nov. 2014, "
+                                 "https://alphahistory.com/worldwar1/serbia"
+                                 "/. \n "
+                                 "Wikipedia contributors. “Serbian "
+                                 "Campaign.” Wikipedia, The Free "
+                                 "Encyclopedia, 14 Nov. 2022, "
+                                 "https://en.wikipedia.org/w/index.php?title"
+                                 "=Serbian_campaign&oldid=1121803600."},
            "Italy": {"name": "Kingdom of Italy",
                      "date_joined": "May 23rd, 1915",
                      "alignment": "Allies / Triple Entente",
@@ -397,7 +478,16 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                       "halt the Austro-Hungarian advance "
                                       "with a victory at Vittorio Veneto, "
                                       "at the base of the Dolomites in "
-                                      "northern Italy."},
+                                      "northern Italy.",
+                     "sources": "“Italy in WWI.” Sky HISTORY TV Channel, "
+                                "https://www.history.co.uk/italy-in-wwi. "
+                                "Accessed 23 Nov. 2022.\n "
+                                "“Italy in World War I.” HISTORY CRUNCH - "
+                                "History Articles, Biographies, "
+                                "Infographics, Resources and More, "
+                                "https://www.historycrunch.com/italy-in"
+                                "-world-war-i.html#/. Accessed 23 Nov. "
+                                "2022."},
            "United States": {"name": "United States of America",
                              "date_joined": "April 6th, 1917",
                              "alignment": "Allies / Triple Entente",
@@ -473,20 +563,25 @@ nations = {"Austria-Hungary": {"name": "Austro-Hungarian Empire",
                                               "military success against "
                                               "experienced veteran German "
                                               "and Austrian-Hungarian units. "
-                                              ""}, }
-sources = ["https://en.wikipedia.org/wiki/United_States_in_World_War_I",
-           "https://spartacus-educational.com/FWWinItaly.htm",
-           "https://royalfamily.org/about-serbia/serbia-in-world-war-i/",
-           "https://www.historycrunch.com/russia-in-world-war-i.html#/",
-           "https://alphahistory.com/worldwar1/ottoman-empire/",
-           "https://en.wikipedia.org/wiki/Bulgaria_during_World_War_I"
-           "#Economic_situation",
-           "https://www.historycrunch.com/france-in-world-war-i.html#/",
-           "https://alphahistory.com/worldwar1/"]
+                                              "",
+                             "sources": "“United States in World War I.” "
+                                        "HISTORY CRUNCH - History Articles, "
+                                        "Biographies, Infographics, "
+                                        "Resources and More, "
+                                        "https://www.historycrunch.com"
+                                        "/united-states-in-world-war-i.html"
+                                        "#/. Accessed 23 Nov. 2022. \n "
+                                        "Alpha History. “The United States "
+                                        "Before.” World War I, "
+                                        "Alpha History, 24 June 2012, "
+                                        "https://alphahistory.com/worldwar1"
+                                        "/united-states/."}, }
+
 
 # Returns dict object for a specific nation
 def get_nations_info(nation):
     return nations[nation]
+
 
 # Returns list of nations held in nations dict object
 def nation_keys():

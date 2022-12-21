@@ -38,7 +38,7 @@
                 <button type="button" class="btn btn-outline-primary">Further Info: Nations</button>
             </a>
             <a>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Background</button>
+                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#welcomeModal">Background</button>
             </a>
             <a>
                 <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#useModal">Help</button>
@@ -67,34 +67,38 @@
     </div>
 
     <!-- timeline element -->
-    <div.tl>
-        <!-- adding timeline stylesheet -->
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/timeline.css') }}?v1">
-        <!-- adding timeline font-->
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}?v1">
-        <script src="{{ url_for('static', filename='js/timeline.js') }}"></script>
+    <div class="container-fluid text-center">
+        <div style="width:95%">
+            <div.tl>
+                <!-- adding timeline stylesheet -->
+                <link rel="stylesheet" href="{{ url_for('static', filename='css/timeline.css') }}?v1">
+                <!-- adding timeline font-->
+                <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}?v1">
+                <script src="{{ url_for('static', filename='js/timeline.js') }}"></script>
 
-        <div id='timeline' style="width: 100%; height: 600px"></div>
+                <div id='timeline' style="width: 100%; height: 600px"></div>
 
-        <!-- timeline script class -->
-        <script class="offset-6">
+                <!-- timeline script class -->
+                <script class="offset-6">
 
-            // timelineJS allows for customization via a series of options passed as an argument to the timeline
-            let additionalOptions = {
-                font: "{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}",
-                scale_factor: 55,
-                timenav_position: "bottom",
-                optimal_tick_width: 20
-            };
+                    // timelineJS allows for customization via a series of options passed as an argument to the timeline
+                    let additionalOptions = {
+                        font: "{{ url_for('static', filename='css/fonts/font.bitter-raleway.css') }}",
+                        scale_factor: 55,
+                        timenav_position: "bottom",
+                        optimal_tick_width: 20
+                    };
 
-            <!-- initializing timeline -->
-            var timeline = new TL.Timeline('timeline', '{{ url_for('static', filename='embed/wwi_timeline.json') }}', additionalOptions);
+                    <!-- initializing timeline -->
+                    var timeline = new TL.Timeline('timeline', '{{ url_for('static', filename='embed/wwi_timeline.json') }}', additionalOptions);
 
-            TL.onresize = function(event) {
-            timeline.updateDisplay();
-          }
-        </script>
-    </div.tl>
+                    TL.onresize = function(event) {
+                    timeline.updateDisplay();
+                  }
+                </script>
+            </div.tl>
+        </div>
+    </div>
 
     <br>
     <br>

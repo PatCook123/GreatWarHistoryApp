@@ -118,7 +118,7 @@
                 "headline": "War Reaches Africa",
                 "text": "At the onset of WWI, the African continent remained largely colonized. Despite agreements of colonial neutrality in the event of a European war, as stated in the Congo Act of 1885, France and Britain invaded the German protectorate of Togoland. Just five days later, German troops cross into British East Africa and occupy Taveta. Find out more about the Togoland Campaign: <a href='https://en.wikipedia.org/wiki/Togoland_campaign'>Togoland Campaign Summary and Aftermath</a>"
             },
-            "group": "Mediterranean and Balkan Campaigns"
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
         },
         {
             "start_date": {
@@ -274,7 +274,7 @@
                 "headline": "British Navy begins the blockade of Germany",
                 "text": "The British Navy, the most powerful in the world at that time, blockaded Germany to restrict the supply of goods to the Central Powers. The blockade would cause shortages in raw materials vital to the war effort and to agriculture. Food shortages ensued and hundreds of thousands would die of starvation by the end of the war."
             },
-            "group": "Mediterranean and Balkan Campaigns"
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
         },
         {
             "start_date": {
@@ -291,10 +291,10 @@
                 "url": "https://en.wikipedia.org/wiki/Bergmann_Offensive"
             },
             "text": {
-                "headline": "War Reaches Caucasus",
+                "headline": "War Reaches the Caucasus",
                 "text": "Ottoman and Russian forces clash in the Caucasus region resulting in a Russian defeat."
             },
-            "group": "Middle East, Gallipoli & Caucasus"
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
         },
         {
             "start_date": {
@@ -339,7 +339,7 @@
                 "headline": "Russian Victory at Sarakamish",
                 "text": "The battle resulted in a Russian victory. The Ottomans employed a strategy which demanded highly mobile troops, capable of arriving at specified objectives at precise times. This approach was based both on German and Napoleonic tactics. The Ottoman troops, ill-prepared for winter conditions, suffered major casualties in the Allahuekber Mountains. Around 25,000 Ottoman soldiers froze to death before the start of the battle."
             },
-            "group": "Middle East, Gallipoli & Caucasus"
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
         },
         {
             "start_date": {
@@ -348,7 +348,7 @@
                 "day": "24"
             },
             "background": {
-                "url": "https://en.wikipedia.org/wiki/Christmas_truce#/media/File:Illustrated_London_News_-_Christmas_Truce_1914.jpg"
+                "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Illustrated_London_News_-_Christmas_Truce_1914.jpg"
             },
             "media": {
                 "url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/t_JM_ArticleMainImageFaceDetect/491303",
@@ -440,24 +440,6 @@
                 "day": "5"
             },
             "background": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/1919_British_map_ahead_of_Paris_Peace_Conference_-_extract_regarding_1915_Constantinople_Agreement.png"
-            },
-            "media": {
-                "url": "https://en.wikipedia.org/wiki/Constantinople_Agreement"
-            },
-            "text": {
-                "headline": "Great Britain and France promise Russia Constantinople",
-                "text": "In the aftermath of several major Russian defeats in late 1914 and early 1915, Britain and France sought to provide further incentive to Russia to ensure their continued participation in the war. With the Gallipoli campaign beginning just a few weeks before, the Allied forces were confident in their capture of the ancient city in relatively short order."
-            },
-            "group": "Politics & Global Events"
-        },
-        {
-            "start_date": {
-                "year": "1915",
-                "month": "3",
-                "day": "5"
-            },
-            "background": {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Landing_at_Gallipoli_%2813901951593%29.jpg"
             },
             "media": {
@@ -467,7 +449,7 @@
                 "headline": "The Gallipoli Campaign Begins",
                 "text": "The operation to take the Dardanelles and gain Allied access to the Black Sea was thwarted by an underestimated Ottoman defense. Over 250,000 casualties would be inflicted  on each side. The bloody failure would haunt its Winston Churchill, then First Lord of the Admiralty of the British Navy, for the remainder of his career. From Wikipedia's The Gallipoli Campaign - 'In Turkey, it is regarded as a defining moment in the history of the state, a final surge in the defence of the motherland as the Ottoman Empire retreated. The struggle formed the basis for the Turkish War of Independence and the declaration of the Republic of Turkey eight years later, with Mustafa Kemal Atatürk, who rose to prominence as a commander at Gallipoli, as founder and president.'"
             },
-            "group": "Middle East, Gallipoli & Caucasus"
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
         },
         {
             "start_date": {
@@ -506,7 +488,7 @@
             },
             "text": {
                 "headline": "Gorlice-Tarnów Offensive",
-                "text": "The defeats in Galicia and Poland caused large salients to form in the Russian lines. Recognizing the risk of large swaths of Russian lines being surrounded by German and Austro-Hungarian forces, Russian leadership ordered what would come to be called The Great Retreat and retreated out of Poland and Galicia and Hungary, and into Russian territory."
+                "text": "The defeats in Galicia and Poland caused large salients to form in the Russian lines. Recognizing the risk of large swaths of Russian lines being surrounded by German and Austro-Hungarian forces, Russian leadership ordered what would come to be called The Great Retreat, pulling forces out of Poland and Galicia and Hungary back and into Russian territory."
             },
             "group": "Eastern Front"
         },
@@ -525,7 +507,7 @@
                 "headline": "The Sinking of the Lusitania",
                 "text": "German u-boat U-20 torpedoed the British Liner off the coast of Ireland on Friday May 7th, 1915. 1,198 civilians and crew perished on the cruiser which was not armed for battle. Among the dead were 128 American citizens, causing protests and anti-German sentiments to grow in the US. However, the cruiser was carrying 173 tons of munitions, which made her a legitimate military target in the eyes of the German Navy."
             },
-            "group": "Mediterranean and Balkan Campaigns"
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
         },
         {
             "start_date": {
@@ -563,7 +545,7 @@
                 "headline": "The Italian Front Takes Form",
                 "text": "The Battles of the Isonzo were a series of 12 battles fought between Italian and Austro-Hungarian Armies in present-day Slovenia and along the Isonzo River. After 12 battles, the Central Powers would gain a decisive victory in the Isonzo Campaign after mixed results during the previous 11 battles."
             },
-            "group": "Mediterranean and Balkan Campaigns"
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
         },
         {
             "start_date": {
@@ -607,7 +589,7 @@
                 "headline": "Bulgaria Enters the Fray - Serbia Invaded",
                 "text": "Both the Allies and the Central Powers tried to get Bulgaria to pick a side in the Great War. Bulgaria and Serbia had fought two wars in the last 30 years: the Serbo-Bulgarian War in 1885, and the Second Balkan War in 1913. The result was that the Bulgarian government and people felt that Serbia was in possession of lands to which Bulgaria was entitled, and when the Central Powers offered to give them what they claimed, the Bulgarians entered the war on their side. The Austro-Hungarians and Germans began their attack on 7 October with their troops crossing the Drina and Sava rivers, covered by heavy artillery fire. Once they crossed the Danube, the Germans and Austro-Hungarians moved on Belgrade itself. Then, on 14 October, the Bulgarian Army attacked from the north of Bulgaria towards Niš and from the south towards Skopje. The Bulgarian First Army defeated the Serbian Second Army at the Battle of Morava, while the Bulgarian Second Army defeated the Serbians at the Battle of Ovche Pole. With the Bulgarian breakthrough, the Serbian position became untenable; the main army in the north (around Belgrade) could either retreat or be surrounded and forced to surrender. In the Battle of Kosovo, the Serbs made a last and desperate attempt to join the two incomplete Allied divisions that made a limited advance from the south, but were unable to gather enough forces due to the pressure from the north and east. Marshal Putnik ordered the Great Retreat, a full retreat south and west through Montenegro and into Albania. The weather was terrible, the roads poor, and the army had to help the tens of thousands of civilians who retreated with them with almost no supplies or food left. But the bad weather and poor roads worked for the refugees as well, as the Central Powers forces could not press them hard enough, so they evaded capture. Many of the fleeing soldiers and civilians did not make it to the coast, though – they were lost to hunger, disease, and attacks by enemy forces and Albanian tribal bands,[42] due to the memory of suppressed rebellions and massacres of Albanians in the Balkan Wars."
             },
-            "group": "Mediterranean and Balkan Campaigns"
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
         },
         {
             "start_date": {
@@ -624,18 +606,13 @@
                 "headline": "Gallipoli Campaign Ends in Allied Defeat",
                 "text": "After the failure of the August 1915 offensives at Suvla and Anzac, Allied forces on the Gallipoli peninsula found themselves unable to do much more than dig in and endure the harsh weather conditions. And so the decision was taken to evacuate the Anzac forces, as well as the British troops, after local commanders became increasingly concerned about the problem of getting supplies to Gallipoli during the winter, when many storms were predicted. The Gallipoli Campaign was a costly failure for the Allies, with 27,000 French and nearly 115,000 British and Dominion casualties. New Zealand suffered around 8,000 casualties, including 2,779 dead. Australia’s 28,000 casualties included more than 8,700 fatalities. Turkish casualties have been estimated at 250,000, of which at least 65,000 are believed to have been fatalities. “The Successful Evacuation of Gallipoli 1915.” Discover The Military Ancestor In Your Family With Forces War Records, https://www.forces-war-records.co.uk/blog/2015/12/11/the-successful-evacuation-of-gallipoli-1915. "
             },
-            "group": "Mediterranean and Balkan Campaigns"
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
         },
         {
             "start_date": {
                 "year": "1916",
                 "month": "2",
                 "day": "21"
-            },
-            "end_date": {
-                "year": "1916",
-                "month": "12",
-                "day": "18"
             },
             "background": {
                 "url": "https://preview.redd.it/1qapu37grga81.jpg?width=640&crop=smart&auto=webp&s=1d867ef6b84a399c86d96ad7605035544f46bfe4"
@@ -644,10 +621,63 @@
                 "url": "https://en.wikipedia.org/wiki/Battle_of_Verdun"
             },
             "text": {
-                "headline": "WWI's Longest Battle - Verdun",
+                "headline": "WWI's Longest Battle Begins - Verdun",
                 "text": "Germany sought to bleed France dry by launching the offensive at Verdun, a system of forts important to French strategy and morale. Over 300,000 died in the nearly 10-month battle."
             },
             "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "3",
+                "day": "9"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Troupes_portugaises_d%C3%A9barquant_%C3%A0_Brest_%281917%29_01.jpg",
+                "caption": "Portuguese troops disembarking at Brest.",
+                "credit": "By Agence Rol - This file comes from Gallica Digital Library and is available under the digital ID btv1b6953068r, Public Domain, https://commons.wikimedia.org/w/index.php?curid=16502126"
+            },
+            "text": {
+                "headline": "Germany Declares War on Portugal",
+                "text": "Tension between Portugal and the Central Powers had been brewing since mid-1914. Beginning in Portuguese-colonized Angola, several skirmishes break out between German and Portuguese troops resulting in further troop build-up in German and Portuguese colonial Africa. Then in February of 1916, Portugal interns 36 ships belonging to Germany and Austria-Hungary at the request of the British. This was the final straw, and just over two weeks later Germany had declared war on Portugal and received a reciprocal declaration from Portugal. Portuguese troops would begin arriving on the Western Front in early 1917."
+            },
+            "group": "Politics & Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "4",
+                "day": "24"
+            },
+            "end_date:": {
+                "year": "1916",
+                "month": "4",
+                "day": "29"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Easter_Rising"
+            },
+            "text": {
+                "headline": "British Rule in Ireland Challenged",
+                "text": "The Easter Rising left 342 Irishmen dead and parts of Central Dublin in a smoldering ruin. The British response to the Easter Rising, which included the execution of the Irish Nationalist leadership and the internment of 1,800 in British internment camps and prisons, fueled further Irish nationalist sentiments and increased the movement's momentum. In December 1918, the Republic of Ireland would declare its independence. "
+            },
+            "group": "Politics & Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "5",
+                "day": "16"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/MPK1-426_Sykes_Picot_Agreement_Map_signed_8_May_1916.jpg",
+                "caption": "Map of the Sykes-Picot Agreement"
+            },
+            "text": {
+                "headline": "The Sykes-Picot Agreement",
+                "text": "Britain and France, along with their other allies, foresaw the eventual defeat of the Ottoman Empire during WWI. With the consent of Russia and Italy, Britain and France partitioned the Middle East into areas of British and French influence in this secret treaty, contributing to modern national borders in the Middle East."
+            },
+            "group": "Politics & Global Events"
         },
         {
             "start_date": {
@@ -670,8 +700,581 @@
                 "headline": "The Battle of Jutland",
                 "text": "The Battle of Jutland, fought over two days from 31 May 1916, was the largest sea battle of the First World War. It pitted 151 British warships against 99 German ships and was the first and only time the two battle fleets confronted each other. “Battle of Jutland Timeline.” Imperial War Museums, https://www.iwm.org.uk/history/battle-of-jutland-timeline#:~:text=The%20Battle%20of%20Jutland%2C%20fought,battle%20fleets%20confronted%20each%20other. "
             },
+            "group": "Politics & Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "6",
+                "day": "4"
+            },
+            "end_date": {
+                "year": "1916",
+                "month": "9",
+                "day": "18"
+            },
+            "background": {
+                "url": "https://warfarehistorynetwork.com/wp-content/uploads/2020/01/M-May19-Brusilov-6.jpg"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Broussilov.jpg",
+                "caption": "General Aleksei Brusilov"
+            },
+            "text": {
+                "headline": "The Brusilov Offensive",
+                "text": "The Brusilov Offensive was the Russian Empire's greatest feat during WWI and one of the most lethal offensives in history. Over 1.7 million Russian soldiers took part in the offensive, which took place largely in present day Ukraine and was fought primarily against Austro-Hungarian positions on the Eastern Front. Utilizing massive waves of infantry supported by creeping barrages, Russian assaults crippled the Austro-Hungarian Army and forced further German Intervention to keep Austria-Hungary fighting effectively. In the end, the campaign would result in anywhere from 1,264,000 to 2,000,000 casualties but achieve its intended goal of forcing Germany to halt its attack at Verdun and transfer significant forces to the East."
+            },
+            "group": "Eastern Front"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "7",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1916",
+                "month": "11",
+                "day": "18"
+            },
+            "background": {
+                "url": "https://www.ushmm.org/m/img/2514769-700x.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_the_Somme"
+            },
+            "text": {
+                "headline": "The Battle of the Somme",
+                "text": "The Battle of the Somme would highlight the horrific consequences of combining poor leadership and outdated tactics with modern defensive weaponry and also the inability of Allied leadership to learn from past experiences. The first day of battle would be the deadliest day in British military history. Over 57,000 casualties were inflicted in less than 24 hours."
+            },
             "group": "Western Front"
         },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "8",
+                "day": "27"
+            },
+            "media": {
+                "url": "https://nzhistory.govt.nz/files/styles/fullsize/public/romania-map-1000.jpg?itok=5eqULY9r",
+                "caption": "Romania prior to entering WWI",
+                "credit": "“Map of the Kingdom of Romania in 1916.” RSS, https://nzhistory.govt.nz/media/photo/map-kingdom-romania-1916."
+            },
+            "text": {
+                "headline": "Romania Enters and Exits the War",
+                "text": "After the Brusilov Offensive, Romanian leadership saw an opportunity to reclaim Transylvania and its largely Romanian population from a weakened Austria-Hungary. After a change in German leadership and the promotion of Paul Von Hindenberg to the effective head of the Central Powers militaries, demoted Erich Von Falkenheyn, alongside the very effective August Von Mackensen, would lead troops to a quick victory. Romania was overran and defeated in a matter of months and Bucharest was captured in December of 1916."
+            },
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "9",
+                "day": "12"
+            },
+            "end_date": {
+                "year": "1916",
+                "month": "12",
+                "day": "11"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Serbia-WW1-4.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Monastir_offensive"
+            },
+            "text": {
+                "headline": "Action on the Salonika Front",
+                "text": "A conglomeration of Allied troops had first landed at Salonika, Greece in late 1915 in an effort to deter Bulgaria from entering the war. A divided but neutral Greek government was thrown into turmoil as Allied leadership continued to send troops to Salonika and pressure Greece to join the fight on the side of the Allies."
+            },
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "9",
+                "day": "15"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mark_I_series_tank_in_action.jpg",
+                "credit": "By Bain News Service - This image is available from the United States Library of Congress&#039;s Prints and Photographs divisionunder the digital ID ggbain.23337.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing for more information., Public Domain, https://commons.wikimedia.org/w/index.php?curid=2512495",
+                "caption": "British Mark I Tank"
+            },
+            "text": {
+                "headline": "First Use of the Tank",
+                "text": "The first tanks used in battle were designed to cut through barbed wire and traverse trenches while providing cover for machine gunners hidden within. Its first use at the battle of Flers-Courcelette, part of the larger Somme operation, would shock German defenders."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1916",
+                "month": "11",
+                "day": "21"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Emperor_Francis_Joseph.jpg",
+                "caption": "Emperor and King Franz Joseph I"
+            },
+            "text": {
+                "headline": "Franz Joseph I Dies",
+                "text": "Franz Joseph had lead the Austrian Empire since 1848 and was all that most Austro-Hungarian subjects had known. He was succeeded by his grand-newphew, Charles I, who would rule until the Empire's collapse in 1918."
+            },
+            "group": "Politics and Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "1",
+                "day": "16"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Zimmermann_Telegram_as_Received_by_the_German_Ambassador_to_Mexico_-_NARA_-_302025.jpg",
+                "credit": "National Archives and Records Administration, Public domain, via Wikimedia Commons",
+                "caption": "The Zimmerman Telegram"
+            },
+            "text": {
+                "headline": "Zimmerman Telegram Intercepted",
+                "text": "The Zimmerman Telegram was a secret correspondence from the German Foreign Office which proposed a secret alliance between Germany and Mexico if the United States entered the war. In exchange for the alliance, Mexico was promised Texas, Arizona and New Mexico. Once verified as genuine, the telegram would serve to fuel cries for America to enter the war on the side of the Allies."
+            },
+            "group": "Politics and Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "2",
+                "day": "23"
+            },
+            "end_date": {
+                "year": "1917",
+                "month": "4",
+                "day": "5"
+            },
+            "background": {
+                "url": "https://blogger.googleusercontent.com/img/a/AVvXsEjJDKa-2DNypegGamw0VN85sO3HwP8LoRa0HubQX13npmKBoVX7_wS-Yhegh5uIlmQjbcs6fjXOT6nLeCe4neODvZo95ISF8AjEFAjIJ5BkcgWxXGQPTQkAMKU-wW3PhdTollzTSwrDUij8tSu8Zxko81_tw6gKdDNoZsE9kM6AMNuOolT0QhgfqjZC=s16000"
+            },
+            "media": {
+                "url": "https://cdn.britannica.com/10/193010-050-FA66760D/Paul-von-Hindenburg.jpg",
+                "caption": "Field Marshall Paul Von Hindenberg",
+                "credit": "Mary Evans Picture Library/age fotostock"
+            },
+            "text": {
+                "headline": "German Forces Retreat to Hindenberg Line",
+                "text": "Germany had largely exhausted manpower and resources during the Battle of Verdun and the Battle of the Somme. Additionally, an ever-weakening Austro-Hungarian Army continued to divert German men and materiel away from the Western Front. When German command was given to Paul Von Hindenberg and Erich Ludendorff Germany's strategy on the Western Front turned to the defensive. During late 1916 construction began on an advanced, vast network of reinforced trenches and defensive positions which, in theory, would allow Germany to inflict maximum casualties on attacking Allied forces and hold positions with fewer men. German forces withdrew to the Hindenberg Line in spring of 1917 in the expectation of further Allied offensives."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "3",
+                "day": "15"
+            },
+            "background": {
+                "url": "https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkxMjI1NzMyMjA1MTI2OTQ3/gettyimages-587493162.jpg"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=6XKB_91i5WA&t=6s"
+            },
+            "text": {
+                "headline": "Tsar Nicholas II Abdicates",
+                "text": "Grain shortages, dismal fighting conditions and results, and an antiquated social structure fueled the urban residents and returning soldiers of Russia in revolution. A day after Tsar Nicholas II abdicated, Vladimir Lenin arrived in Petrograd. In July of 1918, Tsar Nicholas II and his family would be executed by Bolshevik revolutionaries."
+            },
+            "group": "Politics and Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "4",
+                "day": "6"
+            },
+            "background": {
+                "url": "https://blogger.googleusercontent.com/img/a/AVvXsEjJDKa-2DNypegGamw0VN85sO3HwP8LoRa0HubQX13npmKBoVX7_wS-Yhegh5uIlmQjbcs6fjXOT6nLeCe4neODvZo95ISF8AjEFAjIJ5BkcgWxXGQPTQkAMKU-wW3PhdTollzTSwrDUij8tSu8Zxko81_tw6gKdDNoZsE9kM6AMNuOolT0QhgfqjZC=s16000"
+            },
+            "media": {
+                "url": "https://soundcloud.com/user-432648110/wwi-over-there"
+            },
+            "text": {
+                "headline": "United States Declares War on Germany",
+                "text": "Public sentiments of pacifism had kept the United States out of the war. However, one would be hard-pressed to call the United States truly neutral. Anti-German sentiments were fostered before the war and further galvanized by Germany's invasion of Belgium and unrestricted submarine warfare. The Zimmerman Telegram could be considered the final straw which would push America into the war. American banking and industry had thrived off of the financing and trade with the Allies during the first three years of the war and positioned the United States as largely on the side of the Allies. At the time of declaring war, the American Army consisted of little more than 100,000 active duty soldiers, a fraction of forces its European Allies would send into a single offensive. Over the course of 1917, American leadership would be challenged to create, train, and equip an army ready for the slog of the Western Front while struggling to maintain a separate American identity and strategy while being pulled in different directions by France and Britain. However, American entry into WWI would further tip the scales against the Central Powers as their disadvantage in industry, manpower, and materiel would continue to grow. The first American troops would arrive in France on the 25th of June."
+            },
+            "group": "Politics and Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "4",
+                "day": "16"
+            },
+            "end_date": {
+                "year": "1917",
+                "month": "5",
+                "day": "9"
+            },
+            "background": {
+                "url": "https://en.wikipedia.org/wiki/Nivelle_offensive#/media/File:Sturmwagen_w%C3%A4ltzen_sich_durch_die_Ortschaft_Dommiers.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Nivelle_offensive"
+            },
+            "text": {
+                "headline": "The Nivelle Offensive",
+                "text": "The Western Front had become a stalemate after the conclusion of the Race to the Sea in 1914. Morale among the troops and the populations at home had become difficult to bolster after such devastating battles as The Battle of the Somme and Verdun. Robert Nivelle had been given of French forces following the carnage that was Verdun and had devised a plan for a knock-out blow on the Western Front involving a massive barrage and infantry attack on a wide front stretching from Reims to Roye. By the time the Allies were able to carry out the attack, many of the assumptions of the attack were no longer true and German command was well aware of and prepared for the assault. Predictably, the offensive was a failure overall and French casualties were high. Mutinies took place within the French Army and Nivelle was replaced by Phillipe Petain who would conduct a largely defensive strategy. The British, on the other hand, would remain on the offensive throughout 1917."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "6",
+                "day": "25"
+            },
+            "media": {
+                "url": "https://64.media.tumblr.com/0468e3e8ff54538ebf8857024dc18f05/tumblr_oqibbwQ4d51szkmvlo1_1280.jpg",
+                "caption": "First American troops arrive in France, 1917,",
+                "credit": "Source: cdn.historicalpast.com"
+            },
+            "text": {
+                "headline": "First American Troops in France",
+                "text": "The American Expeditionary Force, or AEF, would begin arriving in France in June 1917 but would not participate on a large scale until January 1918."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "6",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1917",
+                "month": "6",
+                "day": "19"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Kerensky_offensive"
+            },
+            "text": {
+                "headline": "Russia's Last Offensive of WWI",
+                "text": "Russia was in turmoil after the February Revolution which had forced the Tsar to abdicate the throne. Anti-war sentiments at home and on the front had continued to rise due to poor supply and leadership on the front lines and worsening conditions at home. After this failed offensive, a large portion of Russian troops refused to fight any longer."
+            },
+            "group": "Eastern Front"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "6",
+                "day": "31"
+            },
+            "end_date": {
+                "year": "1917",
+                "month": "11",
+                "day": "10"
+            },
+            "background": {
+                "url": "https://www.nam.ac.uk/sites/default/files/styles/slice_lg/public/2017-07/103603_slice.jpg?itok=MwAYURdo"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_Passchendaele#/media/File:Chateauwood.jpg",
+                "caption": "Australian troops walking on duckboards in the Ypres Salient",
+                "credit": "Australian War Memorial collection number E01220"
+            },
+            "text": {
+                "headline": "The Battle of Passchendaele",
+                "text": "The Third Battle of Ypres or the Battle of Passchendaele was a British-led campaign to control strategic high-points around the Belgian city of Ypres. This controversial battle did not receive approval from most of Allied leadership as many deemed further offensives in the wake of the failed Nivelle Offensive unwise, especially with American troops not having joined the fray just yet. The wet autumn in Flanders would make render much of the terrain a deadly and hindering mud pit which could be deadly of its own accord, with accounts of soldiers drowning in mud as a result of a false step. The British took 300,000 casualties for 5 miles of gain and inflicted 260,000 casualties during the battle."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "10",
+                "day": "24"
+            },
+            "end_date": {
+                "year": "1917",
+                "month": "11",
+                "day": "19"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Battle_of_Caporetto.jpg",
+                "caption": "Map of the Italian Front - Battle of Caporetto",
+                "credit": "History Department of the US Military Academy West Point - http://www.dean.usma.edu/history/web03/atlases/great%20war/great%20war%20index.htm"
+            },
+            "text": {
+                "headline": "The Battle of Caporetto",
+                "text": "The Battle of Caporetto began on the early morning of October 24th when the Austrians and Germans carried out a series of poisonous gas attacks against the Italian trenches, which causes the Italian forces to retreat.  The gas attack was followed by a heavy ‘stormtrooper’ assault by the Austrians and Germans, which included use of flamethrowers, grenades, machine guns and mortars.  This specialized assault allowed the two Central Power armies to advance quickly through the Italian-held area.  In fact, the Austrian and German assault was so successful that they struggled to maintain supply lines with the advancing armies.  This proved to be important as it limited the distance that the Central Powers could advance into Italy.  The Battle of Caporetto ended on November 19th, 1917.  As a result of the battle, Italy retreated 93 miles (150 kms) and suffered thousands of losses.  More specifically, historians estimate that in the Battle of Caporetto, 13,000 Italian soldiers died, another 30,000 were wounded and nearly 275,000 were captured as prisoners of war.  In all, the Battle of Caporetto was a terrible loss for Italy and led to massive decrease in morale among Italian soldiers.\n Source: “Battle of Caporetto in World War I.” HISTORY CRUNCH - History Articles, Biographies, Infographics, Resources and More, https://www.historycrunch.com/battle-of-caporetto-in-world-war-i.html#/."
+            },
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "11",
+                "day": "7"
+            },
+            "background": {
+                "url": "https://res.cloudinary.com/dtpgi0zck/image/upload/s--FHrIOedL--/c_fit,h_580,w_860/v1/EducationHub/photos/russian-revolution.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/October_Revolution"
+            },
+            "text": {
+                "headline": "The October Revolution",
+                "text": "Left-wing Bolshevik revolutionaries, unhappy with the provisional government which had replaced the Tsarist regime in February of 1917, led a military uprising in Petrograd. The provisional government would be overthrown and power would be transferred to the Soviets and operated by the Bolsheviks, with Lenin at the helm. The revolution would bring and end to fighting on the Eastern Front, to the Allies dismay, with an armistice which would go into effect December 17th of that same year. Peace would not last for an already war-weary Russia, as the revolution would cast Russia into a brutal civil war which would last until 1923."
+            },
+            "group": "Politics and Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1917",
+                "month": "11",
+                "day": "13"
+            },
+            "end_date": {
+                "year": "1917",
+                "month": "11",
+                "day": "26"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Vista_dal_monte_grappa.JPG",
+                "caption": "View from the summit of Monte Grappa towards Austrian positions - present day",
+                "credit": "By Rics1299 - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3278752"
+            },
+            "text": {
+                "headline": "Italian Victory at Monte Grappa",
+                "text": "In the midst what would be known as Italy's greatest military defeat at Caporetto, the combined forces of Austria-Hungary and Germany were bearing down on Italian positions at the edges of the Italian Alps and threatening to break into the Italian plains northwest of Venice. An outnumbered and out-gunned Italian defense, under the new leadership of Armando Diaz, halted the attackers and prevented a total collapse of the Italian front."
+            },
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "2",
+                "day": "18"
+            },
+            "end_date": {
+                "year": "1918",
+                "month": "3",
+                "day": "19"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Kamianets-Podilskyi-1918.jpg",
+                "caption": "Austro-Hungarian troops enter the Ukrainian city of Kamianets-Podilskyi - February 9, 1918.",
+                "credit": "K.u.K. Kriegspressequartier - Picture printed by K.u.K. Kriegspressequartier"
+            },
+            "text": {
+                "headline": "Russia's Dramatic Exit",
+                "text": "Peace talks between Russia and the Central Powers that had followed an official armistice on December 17th, 1917 had ended unsuccessfully after Bolshevik leadership refused to accept terms presented by Germany and Austria-Hungary. Despite the cease-fire coming to an end and the re-opening of hostilities, Soviet Commander-in-Chief Nikolai Kyrlenko ordered the demobilization of the whole Russian army. A three-pronged offensive by the Central Powers moved so quickly through previously Russian territory that the operation was dubbed 'The Railway War'. The armies of the Central Powers had moved 150 miles within a week and to within 100 miles of the Russian Capital, Petrograd, forcing the Soviets to transfer their capital to Moscow. Almost the entirety of Ukraine, Poland, Belarus, and the Baltics became German Protectorates. This mass capture of territory would force the Soviets to agree to even harsher terms than had been presented in December, 1917. On March 3rd, the Soviets would sign the treaty of Brest-Litovsk, officially ending Russia's participation in the war and freeing up Central Powers forces to fight elsewhere, most notably on the Western Front."
+            },
+            "group": "Eastern Front"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "3",
+                "day": "21"
+            },
+            "end_date": {
+                "year": "1918",
+                "month": "7",
+                "day": "18"
+            },
+            "background": {
+                "url": "https://www.worldbook.com/images/pc377415.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/German_spring_offensive"
+            },
+            "text": {
+                "headline": "Kaiserschlact - The German Spring Offensive",
+                "text": "Germany in 1918 found itself holding together ever-weakening and dependant allies and facing increasing shortages in manpower and raw materials needed to fuel this modern war. German leadership realized that if the United States was given time to enter the war in full, a German victory would not be possible. The offensive was made of up four individual offensive campaigns. The primary campaign of these four was Operation Michael, aimed at breaking British lines and in turn, the British Army all together. German victory was not achieved and gains made would come at too high a cost, and Kaiserschlacht would be the last major German offensive of the war."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "5",
+                "day": "28"
+            },
+            "background": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_Cantigny#/media/File:The_people's_war_book;_history,_cyclopaedia_and_chronology_of_the_great_world_war_(1919)_(14595223090).jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_Cantigny"
+            },
+            "text": {
+                "headline": "American Troops Engaged",
+                "text": "American troops, accompanied by a French creeping barrage and French tanks took the village of Cantigny in 30 minutes. After taking the village and repulsing several German counterattacks and bombardments throughout the day, American suffered 1,603 casualties and 199 KIA. The effectiveness of American troops at Cantigny provided assurance to the French that American forces could be depended upon. Two attacks by American troops at Chàteau-Thierry and Bealleau Wood would follow in June."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "8",
+                "day": "8"
+            },
+            "background": {
+                "url": "https://www.worldbook.com/images/pc377415.jpg"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Western_front_1918_allied.jpg",
+                "credit": "Public Domain, https://commons.wikimedia.org/w/index.php?curid=750970",
+                "caption": "Allied gains during the Hundred Days - 1918"
+            },
+            "text": {
+                "headline": "Hundred Days Offensive Begins",
+                "text": "The Hundred Days Offensive, also known as the Advance to Victory, was a series of Allied victories on the Western Front that led to the defeat of the German Army during late 1918. Allied advantages in manpower, equipment, air power, and tanks, as well as the influx of American troops into the fray, helped push back German lines to near 1914 positions. Beginning with the Battle of Amiens, the Allies began their push which would end the war."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "8",
+                "day": "8"
+            },
+            "end_date": {
+                "year": "1918",
+                "month": "8",
+                "day": "12"
+            },
+            "background": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/8th_August_1918_%28Will_Longstaff%29.jpg/1024px-8th_August_1918_%28Will_Longstaff%29.jpg"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_Amiens_(1918)"
+            },
+            "text": {
+                "headline": "The Battle of Amiens",
+                "text": "As the Hundred Days Offensive began, the Allies focused first on reducing the salient that had been created during German advances during Operation Michael. The crucial rail lines through Amiens had been a major objective of German offensives earlier in the year, but the British Expeditionary Force had held firm. Now, British, Australian, and Canadian troops would obtain a major victory against the exhausted and depleted German Army."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "9",
+                "day": "29"
+            },
+            "end_date": {
+                "year": "1918",
+                "month": "10",
+                "day": "10"
+            },
+            "media": {
+                "url": "https://www.tryondailybulletin.com/wp-content/uploads/sites/23/2017/04/StQuentinCanal-Schoonover.jpg",
+                "credit": "Smashing the Hindenburg Line, by Frank Schoonover"
+            },
+            "text": {
+                "headline": "Battle of St. Quentin Canal",
+            "text": "French, British, American, and Australian troops obtained a pivotal victory against a heavily fortified and defended stretch of the Hindenberg Line which used the St. Quentin Canal as part of its defensive network. The assault achieved the first full breach of the Hindenberg Line and helped drive home the stark fact to German leadership that a German Victory in the war was unobtainable."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "9",
+                "day": "26"
+            },
+            "end_date": {
+                "year": "1918",
+                "month": "11",
+                "day": "11"
+            },
+            "media": {
+                "url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/931/524/field-battery-under-attack.jpg?ve=1&tl=1",
+                "credit": "American Troops during the Meuse-Argonne Offensive"
+            },
+            "text": {
+                "headline": "Meuse-Argonne Offensive",
+                "text": "The offensive was aimed at breaking through a heavily-fortified German defense network and reclaim a rail network critical for German supply lines in France and Flanders. The operation was the largest American battle until that time, involving more than one million American troops. The action took place largely in the densely wooded Argonne forest and over uneven terrain. It remains the deadliest battle in the history of the United States army, despite being limited in size and secondary to the main Allied offensive. American forces succeeded in clearing the Argonne forest, paving the way for the French to claim the railroad hub at Sedan. Despite the operation being in full swing with plans to continue, the fighting was stopped abruptly with the onset of the November 11th armistice."
+            },
+            "group": "Western Front"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "8",
+                "day": "8"
+            },
+            "end_date": {
+                "year": "1918",
+                "month": "8",
+                "day": "12"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Battle_of_Baku"
+            },
+            "text": {
+                "headline": "Final Ottoman Offensive of WWI",
+                "text": "After the collapse of the Russian Empire, the Caucasus fell into disarray. Ethnic warfare broke out with atrocities committed by both sides. The battle's legacy includes mutual respect and friendship between Turkey and Azerbaijan that exists to this day. Shortly after, the Ottomans recognized that the war was unwinnable as Germany would likely seek a separate peace and Austria-Hungary was spent."
+            },
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "10",
+                "day": "24"
+            },
+            "end_date": {
+                "year": "1918",
+                "month": "11",
+                "day": "4"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Liberazione_di_Trieste.jpg",
+                "caption": "Italian troops landing at Trieste",
+                "credit": "Unknown author - scan da I.Montanelli-M.Cervi, \"Due secoli di guerre\", vol. VII, De Agostini 1981"
+            },
+            "text": {
+                "headline": "Italy Drives Austria-Hungary Out of War",
+                "text": "Following a crushing defeat at Caporetto and a heroic defense at Monte Grappa to prevent Central Powers troops from reaching the Italian Plains, Italian forces took the offensive and routed Austro-Hungarian forces, eventually taking large swaths of previously lost territory and capturing Trieste. Nearly half-a-million Austro-Hungarian prisoners were taken, and the Austria-Hungary was forced to sign a quick armistice agreement on November 3rd."
+            },
+            "group": "Balkans, Alpine, and Middle Eastern Theatres"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "10",
+                "day": "29"
+            },
+            "end_date": {
+                "year": "1918",
+                "month": "11",
+                "day": "9"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Kiel_mutiny"
+            },
+            "text": {
+                "headline": "Revolution in Germany",
+                "text": "The German Empire fell from within as the monarch Kaiser Wilhelm II was deposed in favor of a new, democratic republic which would later be known as the Weimar Republic. Shortages and other burdens suffered by the German populace, the impact of Germany's defeat, and a growing tension between the general population and the aristocracy all contributed to the revolution. The revolution was started, in part, by the German Kriegsmarine. Sailors revolted in the port of Wilhelmshaven rather than obey orders to fight the British in what would likely be a fruitless defeat. Some days later, the Kiel Mutiny would widespread civil unrest."
+            },
+            "group": "Politics & Global Events"
+        },
+        {
+            "start_date": {
+                "year": "1918",
+                "month": "10",
+                "day": "30"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Agamemnon_at_Mudros.jpg",
+                "caption": "The HMS Agamemnon, where the treaty would be signed",
+                "credit": "Public Domain, https://commons.wikimedia.org/w/index.php?curid=2426354"
+            },
+            "text": {
+                "headline": "Ottoman Armistice",
+                "text": "The Armistice of Mudros ended hostilities between the Allies and the Ottoman Empire and ended Ottoman rule outside of present day Turkey. The Allies would occupy forts along the Dardanelles and the Ottoman military would be demobilized. In 1923, after the Turkish Civil War, the Treaty of Lausanne would supersede the Treaty of Mudros."
+            },
+            "group": "Politics & Global Events"
+        },
+
         {
             "start_date": {
                 "year": "1918",
@@ -690,7 +1293,7 @@
                 "headline": "Armistice Signed, War Ended",
                 "text": "On the 11th hour of the 11th day of the 11th month, Germany surrendered to the Allies. Fighting continued up to 11 AM on the 11th of November, and 2,738 men died on the last day of the war on the Western Front."
             },
-            "group": "Politics"
+            "group": "Politics & Global Events"
         }
     ]
 }

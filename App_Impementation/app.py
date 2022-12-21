@@ -1,8 +1,21 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, make_response
 from nations import nation_keys, get_nations_info
 from flask_bootstrap import Bootstrap4
 import json
 import requests
+
+from flask_api.status import HTTP_400_BAD_REQUEST
+from flask_api.status import HTTP_200_OK
+from flask_api.status import HTTP_500_INTERNAL_SERVER_ERROR
+
+from App_Impementation.service.date_parser import DateParser
+
+from service.events_service import EventsService
+
+# constants
+DAY = "day"
+MONTH = "month"
+GET = "GET"
 
 # Initialize App
 app = Flask(__name__)
@@ -27,13 +40,23 @@ def get_events():
     # Form only includes month and day, both are sent to microservice
     month = int(request.form['inputMonth'])
     day = int(request.form['inputDay'])
-    data = {"month": month, "day": day}
-    response = requests.get('http://localhost:5100/events', json=data)
+    req = {"month": month, "day": day}
 
-    # Response handled and appended with number of items it contains
-    response = json.loads(response.text)
-    response["items"] = len(response["events"])
-    return json.dumps(response)
+    try:
+        events = EventsService(DateParser()).get_events(req[DAY], req[MONTH])
+    except ValueError:
+        return make_response(
+            { "Error": "Request object contains 1 or more misconfigured attribute values" },
+            HTTP_400_BAD_REQUEST
+        )
+    except Exception:
+        return make_response(
+            { "Error": "An internal server error has occurred" },
+            HTTP_500_INTERNAL_SERVER_ERROR
+        )
+
+    events["items"] = len(events["events"])
+    return json.dumps(events)
 
 
 # Receives request from more_info page dropdown form, returns dict object
@@ -50,7 +73,7 @@ def countries():
 
             # Return list of nations for dropdown form on page
     if request.method == 'GET':
-        return render_template('more_info.html', nation_dropdown=nation_keys())
+        return render_template('nation_info_base.html', nation_dropdown=nation_keys())
 
 
 if __name__ == '__main__':

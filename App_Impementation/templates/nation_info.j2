@@ -1,4 +1,4 @@
-{% extends "more_info.html" %}
+{% extends "nation_info_base.html" %}
 {% block nation_content %}
 
     <div class="row text-center">
@@ -28,6 +28,8 @@
                         <dd><b>Losses: </b>{{nation["casualties"]}}</dd>
                     <dt><h4><u>Participation</u></h4></dt>
                         <dd>{{nation["participation"]}}</dd>
+                    <dt><h4><u>Sources</u></h4></dt>
+                        <dd><cite>{{nation["sources"]}}</cite></dd>
                 </dl>
             </p>
         </div>
