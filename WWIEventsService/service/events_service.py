@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 import re
 import requests
-from WWIEventsService.service.date_parser import DateParser
+from .date_parser import DateParser
 
 
 class EventsService(object):
@@ -18,7 +18,7 @@ class EventsService(object):
     __TR = "tr"
     __TD = "td"
     __REPLACEMENT_EXPRESSION = "[ ][(]Details[)]|\[[1-9]{1,}\]"
-    __WW1_YEARS = [1914, 1915, 1916, 1917, 1918, 1919, 1920]
+    __WW1_YEARS = [1915]
 
     def __init__(self, date_parser: DateParser):
         self.__date_parser = date_parser

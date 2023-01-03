@@ -78,30 +78,35 @@ class TestWW1EventsApi(unittest.TestCase):
         for day in range(1, self.__DAYS_IN_AUGUST + 1):
             data = { self.__DAY: day, self.__MONTH: self.__AUGUST }
             response = requests.get(self.__URL, json=data)
+            print(data)
             self.assertEqual(response.status_code, 200)
     
     def test_api_response_september(self):
         for day in range(1, self.__DAYS_IN_SEPTEMBER + 1):
             data = { self.__DAY: day, self.__MONTH: self.__SEPTEMBER }
             response = requests.get(self.__URL, json=data)
+            print(data)
             self.assertEqual(response.status_code, 200)
     
     def test_api_response_october(self):
         for day in range(1, self.__DAYS_IN_OCTOBER + 1):
             data = { self.__DAY: day, self.__MONTH: self.__OCTOBER }
             response = requests.get(self.__URL, json=data)
+            print(data)
             self.assertEqual(response.status_code, 200)
     
     def test_api_response_november(self):
         for day in range(1, self.__DAYS_IN_NOVEMBER + 1):
             data = { self.__DAY: day, self.__MONTH: self.__NOVEMBER }
             response = requests.get(self.__URL, json=data)
+            print(data)
             self.assertEqual(response.status_code, 200)
     
     def test_api_response_december(self):
         for day in range(1, self.__DAYS_IN_DECEMBER + 1):
             data = { self.__DAY: day, self.__MONTH: self.__DECEMBER }
             response = requests.get(self.__URL, json=data)
+            print(data)
             self.assertEqual(response.status_code, 200)
 
 
